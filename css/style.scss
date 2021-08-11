@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/////////////// color variables /////////////////
+$theme-blue: #15426d;
+$theme-blue-light: #c2dbec;
+$theme-orange: #efa434;
+$theme-white: #fff;
+
+///////////// font variables ///////////////////
+$font-small: 14px;
+$font-para: 16px;
+$font-heading-lg: 20px;
+
+////////////// variable classess /////////////
+.theme-blue {
+  color: $theme-blue !important;
+}
+.theme-orange {
+  color: $theme-orange !important;
+}
+.theme-white {
+  color: $theme-white !important;
+}
+.theme-bg-blue {
+  background-color: $theme-blue !important;
+}
+.theme-bg-orange {
+  background-color: $theme-orange !important;
+}
+.theme-bg-white {
+  background-color: $theme-white !important;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@mixin flex-column-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@mixin flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+@mixin flex-row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+#login-btn {
+  width: fit-content;
+  color: #fff;
+  background-color: $theme-orange;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: $font-para;
+}
+.navbar {
+  transition: all 0.2s linear;
+  padding-top: 0;
+}
+.top-nav-strip {
+  @include flex-row();
+  width: 100%;
+  background: $theme-orange;
+  color: #fff;
+  font-size: $font-small;
+  list-style-type: none;
+  padding: 4px 0;
+  margin: 0;
+
+  li {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+
+    i {
+      padding: 3px;
+    }
+  }
+}
+.sticky-nav {
+  transition: all 0.2s linear;
+  padding: 5px 20px;
+  box-shadow: 0 1px 10px -5px rgba(0, 0, 0, 0.6);
+}
+.navbar .nav-item {
+  font-size: $font-para;
+  font-weight: 700;
+}
+header {
+  height: calc(100vh - 70px);
+  max-height: fit-content;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  #search {
+    position: relative;
+  }
+
+  #search::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    position: absolute;
+    right: 5%;
+    transform: translateY(40%);
+    color: $theme-orange;
+    cursor: pointer;
+  }
+
+  .category-grid {
+    .grid-item {
+      height: 60px;
+      padding: 4px 7px;
+      a {
+        @include flex-row();
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background: $theme-blue-light;
+        text-decoration: none;
+        font-size: $font-small;
+        color: #000;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+  }
+  .icons-grid {
+    // @include flex-row-start();
+    // flex-wrap: wrap;
+    padding: 0;
+    .icon {
+      padding: 10px 4px;
+      // box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.6);
+      @include flex-column();
+      img {
+        width: 50px;
+        height: auto;
+      }
+      span {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-align: center;
+      }
+    }
+  }
+}
+
+#about-us {
+  position: relative;
+  border-top: 0.5px solid rgba(177, 173, 173, 0.295);
+  padding: 20px 10px;
+  .row {
+    .lt,
+    .rt {
+      @include flex-column();
+    }
+
+    .rt {
+      form {
+        min-width: 300px;
+        width: 70%;
+        padding: 30px 20px;
+        box-shadow: 0px 0px 10px -6px rgba(0, 0, 0, 0.6);
+        border-radius: 8px;
+
+        input {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+#about-us::after {
+  content: "About US";
+  position: absolute;
+  top: 50%;
+  left: -7%;
+  font-weight: bolder;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  transform: rotate(90deg);
+  letter-spacing: 2px;
+  color: rgba(73, 73, 73, 0.397);
+}
+
+#why-choose-us {
+  .icons-grid {
+    width: 75%;
+    .icon {
+      @include flex-column();
+      margin: 20px 0;
+      div {
+        @include flex-column();
+        width: 100px;
+        height: 100px;
+        background: $theme-orange;
+        border-radius: 10px;
+
+        img {
+          width: auto;
+          height: auto;
+          max-width: 60%;
+        }
+      }
+    }
+  }
+
+  .mid-sec {
+    .content {
+      width: 60%;
+      margin: 0 auto;
+      .title {
+        font-size: 28px;
+        span {
+          font-size: 1.5em;
+        }
+      }
+      .sub-title {
+        font-size: 18px;
+      }
+      a {
+        padding: 5px 35px;
+        width: fit-content;
+        border: 2px solid white;
+        margin-right: 10px;
+        border-radius: 0 !important;
+      }
+    }
+  }
+
+  .bottom-sec {
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px 5px;
+
+    .icon {
+      @include flex-column();
+      div {
+        @include flex-column();
+        width: 100px;
+        height: 100px;
+        img {
+          width: auto;
+          height: auto;
+          max-height: 60%;
+        }
+        .nos {
+          font-weight: bold;
+          color: $theme-blue;
+          font-size: 20px;
+          padding: 5px;
+        }
+      }
+      span {
+        font-weight: lighter;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+///////////// pc view standard/////////////
+@media screen and (max-width: 912px) {
+  header {
+    height: fit-content;
+  }
+}
+
+///////////// tab view /////////////
+@media screen and (max-width: 767px) {
+  header {
+    height: fit-content;
+  }
+}
+
+///////////// mobile view /////////////
+@media screen and (max-width: 576px) {
+  .sticky-nav {
+    padding: 0;
+  }
+
+  header {
+    height: fit-content;
+  }
+
+  .category-grid {
+    .grid-item {
+      height: 90px;
+      padding: 4px 7px;
+    }
+  }
+
+  #about-us::after {
+    display: none;
+  }
+
+  .mid-sec {
+    .content {
+      width: 90% !important;
+      margin: 0 auto;
+      .title {
+        font-size: 26px;
+        text-align: center;
+        span {
+          font-size: 1.3em;
+        }
+      }
+      .sub-title {
+        font-size: 17px;
+        text-align: center;
+      }
+      div {
+        text-align: center !important;
+      }
+    }
+  }
+
+  .bottom-sec {
+    width: 90% !important;
+  }
+}
