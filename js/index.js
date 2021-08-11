@@ -14,5 +14,19 @@ var options = {
   showCursor: true,
   cursorChar: "|",
 };
-
 var typed = new Typed("input", options);
+
+// tabs switch ajax
+$(document).ready(() => {
+  $(".tabs").click(function () {
+    // tab bar active class
+    $(".active-li").removeClass("active-li");
+    $(this).addClass("active-li");
+
+    // load container when click
+    let activeIndex = $(this).index();
+    $(".tab-container").addClass("d-none");
+    $(".tab-container").eq(activeIndex).removeClass("d-none");
+    console.log($(".tab-container").eq(activeIndex));
+  });
+});
