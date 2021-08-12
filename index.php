@@ -10,7 +10,7 @@
    <?php include './incl/nav.php'; ?>
    <!---------- header  ------------>
    <header class="mx-0 mb-5">
-      <div class="row mx-auto h-100">
+      <div class="row main-row mx-auto h-100">
          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center px-md-5">
             <form class="d-flex w-100 mb-3" action="" method="get" id="search">
                <input class="form-control me-2 " type="text" placeholder="Search" name="search" aria-label="Search">
@@ -31,7 +31,7 @@
                <div class="col-6 col-md-4 grid-item"><a href="">RERA Registration For Promoters </a></div>
             </div>
          </div>
-         <div class="col-12 col-md-6 icons-grid row mx-auto">
+         <div class="col-12 col-md-4 me-md-auto mx-auto icons-grid row ">
             <div class="icon col-6 col-md-4">
                <img src="image/in-tax.png" alt="">
                <span>Income tax</span>
@@ -468,7 +468,7 @@
 
    <!---------- USP section ------------>
    <section class="my-5" id="USP">
-      <h1 class="text-center mb-3">Why Choose Us</h1>
+      <h2 class="text-center mb-3">USP</h2>
 
       <div class="icons-grid row mx-auto py-md-2">
          <div class="col-6 col-sm-3 icon">
@@ -525,7 +525,447 @@
    </section>
 
 
+   <!---------- FAQs section ------------>
+   <section class="my-5" id="faqs">
+      <h2 class="text-center main-title mb-5">Frequently Asked Questions</h2>
+      <!--- accordions faqs  ---->
+      <div class="container mx-auto">
+         <div class="accordion" id="accordionMain">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                     What is the full form of GST?
+                  </button>
+               </h2>
+               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     GST stands for "Goods & Services Tax' and as the name itself explains, that the tax is imposed on goods and services.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     What is the GST Registration process?
+                  </button>
+               </h2>
+               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     How to get a company registered?
+                  </button>
+               </h2>
+               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                     What is the full form of GST?
+                  </button>
+               </h2>
+               <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     GST stands for "Goods & Services Tax' and as the name itself explains, that the tax is imposed on goods and services.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                     What is the GST Registration process?
+                  </button>
+               </h2>
+               <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading6">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                     How to get a company registered?
+                  </button>
+               </h2>
+               <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                     How to get a company registered?
+                  </button>
+               </h2>
+               <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading8">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                     What is the GST Registration process?
+                  </button>
+               </h2>
+               <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading9">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                     How to get a company registered?
+                  </button>
+               </h2>
+               <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionMain">
+                  <div class="accordion-body">
+                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
+                  </div>
+               </div>
+            </div>
+         </div>
 
+
+
+
+
+
+
+
+
+
+      </div>
+   </section>
+
+
+   <!----------- blogs section  ---------->
+   <section class="my-5" id="blogs">
+      <h2 class="main-title text-center mb-5">Latest Blogs</h2>
+
+      <div class="swiper-container-blog">
+         <div class="swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+               <div class="blog-card-container">
+                  <div class="img-container">
+                     <span class="date">AUGUST 12,2021</span>
+                     <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="title">
+                     <h5>What is investing and trading in stock market? How does it works?</h5>
+                  </div>
+                  <div class="tags">
+                     <span class="author">Posted By: Author</span>
+
+                     <ol class="tag-list">
+                        <li>How to search for Genuine stock tips provider in India?</li>
+                        <li>Truth about operator calls, FII base calls, Sureshot calls and jackpot tips</li>
+                        <li>What are Operator calls or operator based tips?</li>
+                     </ol>
+
+                  </div>
+                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+               </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+               <div class="blog-card-container">
+                  <div class="img-container">
+                     <span class="date">AUGUST 12,2021</span>
+                     <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="title">
+                     <h5>What is investing and trading in stock market? How does it works?</h5>
+                  </div>
+                  <div class="tags">
+                     <span class="author">Posted By: Author</span>
+
+                     <ol class="tag-list">
+                        <li>How to search for Genuine stock tips provider in India?</li>
+                        <li>Truth about operator calls, FII base calls, Sureshot calls and jackpot tips</li>
+                        <li>What are Operator calls or operator based tips?</li>
+                     </ol>
+                  </div>
+                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+               </div>
+            </div>
+            <!-- slide3 -->
+            <div class="swiper-slide">
+               <div class="blog-card-container">
+                  <div class="img-container">
+                     <span class="date">AUGUST 12,2021</span>
+                     <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="title">
+                     <h5>What is investing and trading in stock market? How does it works?</h5>
+                  </div>
+                  <div class="tags">
+                     <span class="author">Posted By: Author</span>
+
+                     <ol class="tag-list">
+                        <li>How to search for Genuine stock tips provider in India?</li>
+                        <li>Truth about operator calls, FII base calls, Sureshot calls and jackpot tips</li>
+                        <li>What are Operator calls or operator based tips?</li>
+                     </ol>
+                  </div>
+                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+               </div>
+            </div>
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+               <div class="blog-card-container">
+                  <div class="img-container">
+                     <span class="date">AUGUST 12,2021</span>
+                     <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="title">
+                     <h5>What is investing and trading in stock market? How does it works?</h5>
+                  </div>
+                  <div class="tags">
+                     <span class="author">Posted By: Author</span>
+
+                     <ol class="tag-list">
+                        <li>How to search for Genuine stock tips provider in India?</li>
+                        <li>Truth about operator calls, FII base calls, Sureshot calls and jackpot tips</li>
+                        <li>What are Operator calls or operator based tips?</li>
+                     </ol>
+                  </div>
+                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+               </div>
+            </div>
+            <!-- slide 5 -->
+            <div class="swiper-slide">
+               <div class="blog-card-container">
+                  <div class="img-container">
+                     <span class="date">AUGUST 12,2021</span>
+                     <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="title">
+                     <h5>What is investing and trading in trading in stock market? How does it works? How does it works?</h5>
+                  </div>
+                  <div class="tags">
+                     <span class="author">Posted By: Author</span>
+
+                     <ol class="tag-list">
+                        <li>How to search for Genuine stock tips provider in India?</li>
+                        <li>Truth about operator calls, FII base calls, Sureshot calls and jackpot tips</li>
+                        <li>What are Operator calls or operator based tips?</li>
+                     </ol>
+                  </div>
+                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="swiper-prev-btn"><i class="fas fa-chevron-left"></i></div>
+      <div class="swiper-next-btn"><i class="fas fa-chevron-right"></i></div>
+   </section>
+
+
+   <!----------- clients section  ----------->
+   <section class="my-5" id="clients">
+      <div class="row mx-auto">
+         <div class="col-3 col-md-2 d-flex justify-content-center align-items-center">
+            <h4 class="main-title">CLIENT</h4>
+         </div>
+         <div class="col-9 col-md-10 clients-slider-container ">
+            <div class="clients-slider">
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+               <div class="img-container"><img src="image/order.png" alt=""></div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+
+   <!----------- testimonial section  ----------->
+   <section class="my-5 " id="testimonial">
+      <h2 class="text-center main-title">What Our Clients Says</h2>
+
+      <div class="swiper-container-testimonial">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide slide1">
+               <div class="testimonial-card">
+                  <div class="img-container">
+                     <img src="image/profile.png" alt="">
+                  </div>
+                  <h3 class="user-name">Mr. Ajay Singh</h3>
+                  <h5 class="user-prof">MD, India</h5>
+                  <p class="review">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore consequatur optio quo! Quaerat, nesciunt iusto veniam dolore
+                  </p>
+                  <div class="rating"><span>5.0</span>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
 
 
    <!--------- footer  ----------->
