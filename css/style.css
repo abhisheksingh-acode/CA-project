@@ -1387,11 +1387,11 @@ header .icons-grid .icon span {
   }
   #footer .bottom-div .main-row span {
     padding: 20px;
-    font-size: 13px;
+    font-size: 12px;
   }
   #footer::after {
-    -webkit-clip-path: none;
-            clip-path: none;
+    -webkit-clip-path: polygon(0 5%, 100% 5%, 100% 100%, 0 100%);
+            clip-path: polygon(0 5%, 100% 5%, 100% 100%, 0 100%);
   }
 }
 /*# sourceMappingURL=style.css.map */
