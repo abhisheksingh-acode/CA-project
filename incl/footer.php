@@ -85,7 +85,7 @@
             <li>Contact Us</li>
             <li>Site Map</li>
          </ul>
-         <span class="col-md-4">Copyright &copy;2021 Swarit Advisors Private Limited</span>
+         <span class="col-md-4">Copyright &copy;2021 Company Name Private Limited</span>
       </div>
    </div>
 </section>

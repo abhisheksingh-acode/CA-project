@@ -1390,8 +1390,8 @@ header .icons-grid .icon span {
     font-size: 13px;
   }
   #footer::after {
-    -webkit-clip-path: polygon(0 5%, 100% 5%, 100% 100%, 0 100%);
-            clip-path: polygon(0 5%, 100% 5%, 100% 100%, 0 100%);
+    -webkit-clip-path: none;
+            clip-path: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
