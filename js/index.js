@@ -1,24 +1,17 @@
-/////// sticky navbar ////////
+// sticky navbar
 $(document).scroll(() => {
-  var ht = document.querySelector("header").getBoundingClientRect().top;
-  ht < 40
-    ? $(".navbar").addClass("sticky-nav")
-    : $(".navbar").removeClass("sticky-nav");
+  var ht = document
+    .querySelector(".navbar")
+    .nextElementSibling.getBoundingClientRect().top;
+
+  if (ht < 40) {
+    $(".navbar").addClass("sticky-nav");
+  } else {
+    $(".navbar").removeClass("sticky-nav");
+  }
 });
 
-/////// typed animation ////////
-var options = {
-  strings: ["Income Tax", "GST Registration", "Marketing Services"],
-  typeSpeed: 60,
-  loop: true,
-  attr: "placeholder",
-  loopCount: Infinity,
-  showCursor: true,
-  cursorChar: "|",
-};
-var typed = new Typed("#search input", options);
-
-///////// tabs switch ajax //////////
+// our service tab switch ajax
 
 $(document).ready(() => {
   $(".tabs").click(function () {
@@ -34,7 +27,7 @@ $(document).ready(() => {
   });
 });
 
-/////// swiper blog slider//////////
+// swiper blog slider
 
 let swiperBlog = new Swiper(".swiper-container-blog", {
   slidesPerView: "auto",
@@ -64,7 +57,7 @@ let swiperBlog = new Swiper(".swiper-container-blog", {
   },
 });
 
-/////// swiper testimonial slider//////////
+// swiper testimonial slider
 let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   effect: "coverflow",
   loop: true,
@@ -82,4 +75,34 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
     el: ".swiper-pagination",
     dynamicBullets: true,
   },
+});
+
+// scroll bar tab indicator
+
+$(document).ready(() => {
+  let count = $(".bar-item").length;
+
+  for (let i = 0; i < count; i++) {
+    let id = $(".scroll-section").eq(i).attr("id");
+    $(".bar-item")
+      .eq(i)
+      .attr("href", "#" + id);
+  }
+
+  $(document).scroll(function () {
+    let el = $(".scroll-section");
+
+    // find active el
+    el.each(function (index, val) {
+      var offset = $(this).offset();
+      var top = offset.top;
+      let dist = top - $(window).scrollTop();
+
+      // add active class
+      if (dist < 200 && dist > 0) {
+        $(".active-li").removeClass("active-li");
+        $(".bar-list li").eq(index).addClass("active-li");
+      }
+    });
+  });
 });

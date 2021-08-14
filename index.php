@@ -6,11 +6,9 @@
 <?php include './incl/head.php'; ?>
 
 <body>
+
    <!---------- navbar  ---------->
    <?php include './incl/nav.php'; ?>
-
-   <!---------- side social bar  ------------>
-   <?php include './incl/social.php'; ?>
 
    <!---------- header  ------------>
    <header class="mx-0 mb-5">
@@ -114,6 +112,9 @@
          </div>
       </div>
    </header>
+
+   <!---------- side social bar  ------------>
+   <?php include './incl/social.php'; ?>
 
 
    <!---------- about us  ------------>
@@ -993,6 +994,17 @@
    <!--------- footer  ----------->
    <?php include './incl/footer.php'; ?>
    <script>
+      // typed animation
+      var options = {
+         strings: ["Income Tax", "GST Registration", "Marketing Services"],
+         typeSpeed: 60,
+         loop: true,
+         attr: "placeholder",
+         loopCount: Infinity,
+         showCursor: true,
+         cursorChar: "|",
+      };
+      var typed = new Typed("#search input", options);
    </script>
 </body>
 
