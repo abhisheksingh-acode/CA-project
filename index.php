@@ -8,6 +8,10 @@
 <body>
    <!---------- navbar  ---------->
    <?php include './incl/nav.php'; ?>
+
+   <!---------- side social bar  ------------>
+   <?php include './incl/social.php'; ?>
+
    <!---------- header  ------------>
    <header class="mx-0 mb-5">
       <div class="row main-row mx-auto h-100">
@@ -15,7 +19,7 @@
             <form class="d-flex w-100 mb-3" action="" method="get" id="search">
                <input class="form-control me-2 " type="text" placeholder="Search" name="search" aria-label="Search">
             </form>
-            <h5 class="text-center p-2">Our Categories:</h5>
+            <h5 class="p-2">Our Categories:</h5>
 
             <div class="row mx-auto p-0 category-grid">
                <div class="col-6 col-md-4 grid-item"><a href="">Private Limited Company Registration </a></div>
@@ -31,42 +35,60 @@
                <div class="col-6 col-md-4 grid-item"><a href="">RERA Registration For Promoters </a></div>
             </div>
          </div>
-         <div class="col-12 col-md-4 me-md-auto mx-auto icons-grid row ">
+         <div class="col-12 col-md-6 mx-auto icons-grid row ">
             <div class="icon col-6 col-md-4">
-               <img src="image/in-tax.png" alt="">
-               <span>Income tax</span>
+               <div class="inner">
+                  <img src="image/in-tax.png" alt="">
+                  <span>Income tax</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/acc-service.png" alt="">
-               <span>accounting services</span>
+               <div class="inner">
+                  <img src="image/acc-service.png" alt="">
+                  <span>accounting services</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/gst.webp" alt="">
-               <span>GST</span>
+               <div class="inner">
+                  <img src="image/gst.webp" alt="">
+                  <span>GST</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/business.webp" alt="">
-               <span>business Registration</span>
+               <div class="inner">
+                  <img src="image/business.webp" alt="">
+                  <span>business Registration</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/biz-licence.png" alt="">
-               <span>business licence</span>
+               <div class="inner">
+                  <img src="image/biz-licence.png" alt="">
+                  <span>business licence</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/roc.png" alt="">
-               <span>ROC licence</span>
+               <div class="inner">
+                  <img src="image/roc.png" alt="">
+                  <span>ROC licence</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/trade-mark.png" alt="">
-               <span>Trademark & copyright</span>
+               <div class="inner">
+                  <img src="image/trade-mark.png" alt="">
+                  <span>Trademark & copyright</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/gui.webp" alt="">
-               <span>Graphic and UI design</span>
+               <div class="inner">
+                  <img src="image/gui.webp" alt="">
+                  <span>Graphic and UI design</span>
+               </div>
             </div>
             <div class="icon col-6 col-md-4">
-               <img src="image/video-animation.png" alt="">
-               <span>Video animation</span>
+               <div class="inner">
+                  <img src="image/video-animation.png" alt="">
+                  <span>Video animation</span>
+               </div>
             </div>
             <!-- <div class="icon col-6 col-md-4">
                <img src="image/web-dev.png" alt="">

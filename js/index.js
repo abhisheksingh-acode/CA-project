@@ -8,14 +8,15 @@ $(document).scroll(() => {
 
 /////// typed animation ////////
 var options = {
-  strings: ["income tax", "gst service", "marketing service"],
+  strings: ["Income Tax", "GST Registration", "Marketing Services"],
   typeSpeed: 60,
   loop: true,
+  attr: "placeholder",
   loopCount: Infinity,
   showCursor: true,
   cursorChar: "|",
 };
-var typed = new Typed("input", options);
+var typed = new Typed("#search input", options);
 
 ///////// tabs switch ajax //////////
 

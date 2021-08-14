@@ -1,5 +1,5 @@
 <!-- footer component  -->
-<section class="mt-5 border" id="footer">
+<section class="mt-5" id="footer">
    <div class="subscribe-div row container mx-auto">
       <div class="col-4 lt">
          <h4>Subscribe To Our News Letter</h4>
@@ -89,10 +89,6 @@
       </div>
    </div>
 </section>
-
-
-
-
 
 <!------------------------------------------- scripts  -------------------------------------------->
 <!----------- jquery  --------->
