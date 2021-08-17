@@ -155,7 +155,7 @@
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eaque enim mollitia in natus amet eligendi sequi fugiat nostrum nesciunt quis commodi maxime temporibus, minima recusandae deserunt earum a voluptatum?
             </p>
             <div class="button">
-               <a href="" class="btn btn-warning text-white">Read More</a>
+               <a href="" class="btn btn-danger text-white">Read More</a>
             </div>
          </div>
       </div>
