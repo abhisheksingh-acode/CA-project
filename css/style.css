@@ -856,7 +856,7 @@ header .icons-grid .icon .inner span {
   border-radius: 50%;
   position: absolute;
   left: 40%;
-  background: #efa434;
+  background: #fdb03b;
   -webkit-transform: scale(0);
           transform: scale(0);
 }
@@ -866,6 +866,8 @@ header .icons-grid .icon .inner span {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border-color: transparent;
+  -webkit-box-shadow: 2px 3px 13px -3px #efa434b4;
+          box-shadow: 2px 3px 13px -3px #efa434b4;
 }
 
 #our-service .main-row .rt .col-md-6 .cards .btn:hover::after {
