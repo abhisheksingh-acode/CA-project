@@ -16,6 +16,7 @@ $(document).scroll(() => {
 
 $(document).ready(() => {
   $(".tabs").click(function () {
+    $(this).toggleClass("flip-card");
     // tab bar active class
     $(".active-li").removeClass("active-li");
     $(this).addClass("active-li");
