@@ -71,6 +71,8 @@
             </form>
          </div>
       </div>
+      <!---------- side social bar  ------------>
+      <?php include './incl/social.php'; ?>
    </section>
 
    <!---------- how to start  ---------->
@@ -340,8 +342,7 @@
    </section>
 
 
-   <!---------- side social bar  ------------>
-   <?php include './incl/social.php'; ?>
+
 
    <!--------- footer  ----------->
    <?php include './incl/footer.php'; ?>

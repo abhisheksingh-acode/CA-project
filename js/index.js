@@ -4,6 +4,7 @@ $(document).scroll(() => {
     .querySelector(".navbar")
     .nextElementSibling.getBoundingClientRect().top;
 
+  $(".navbar").next().addClass("position-relative");
   if (ht < 40) {
     $(".navbar").addClass("sticky-nav");
   } else {
@@ -18,9 +19,13 @@ $(document).ready(() => {
     // tab bar active class
     $(".active-li").removeClass("active-li");
     $(this).addClass("active-li");
+    let activeIndex = $(this).index();
+
+    // check radio
+    $("li input[type=radio]").removeAttr("checked");
+    $(".active-li input").attr("checked", "checked");
 
     // load container when click
-    let activeIndex = $(this).index();
     $(".tab-container").addClass("d-none");
     $(".tab-container").eq(activeIndex).removeClass("d-none");
     console.log($(".tab-container").eq(activeIndex));
@@ -77,6 +82,22 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   },
 });
 
+// swiper testimonial slider
+let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
+  loop: true,
+  centeredSlides: true,
+  spaceBetween: 100,
+  speed: 2000,
+  grabCursor: true,
+  slidesPerView: "auto",
+  navigation: {
+    nextEl: ".swiper-next-btn",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+});
 // scroll bar tab indicator
 
 $(document).ready(() => {
@@ -105,4 +126,41 @@ $(document).ready(() => {
       }
     });
   });
+});
+
+// cards tilt Animation
+$(document).ready(() => {
+  // header icon cards
+  $(".inner").tilt({
+    maxTilt: 20,
+    perspective: 1400,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1200,
+    glare: true,
+    maxGlare: 0.2,
+    scale: 1.1,
+  });
+
+  // services cards
+  $(".inner-card").tilt({
+    maxTilt: 15,
+    perspective: 1200,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    speed: 1200,
+    glare: true,
+    maxGlare: 0.2,
+    scale: 1,
+  });
+});
+
+$(document).on("click mousemove", "body", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  // alert(x);
+  var newposX = x - 100;
+  var newposY = y - 20;
+  $(".circle").css(
+    "transform",
+    "translate3d(" + newposX + "px," + newposY + "px,0px)"
+  );
 });

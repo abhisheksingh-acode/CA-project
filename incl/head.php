@@ -20,6 +20,9 @@
    <!-------- swiper css -------->
    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
+   <!-------- aos css -------->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
    <!--------- font-awsome ----------->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 

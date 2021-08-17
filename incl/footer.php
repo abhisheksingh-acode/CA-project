@@ -99,5 +99,9 @@
 <script src="js/swiper-bundle.min.js"></script>
 <!------------ typed js  -------------->
 <script src="js/typed.js"></script>
+<!------------ aos js  -------------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!------------ tilt js  -------------->
+<script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
 <!----------- custom  ------------>
 <script src="js/index.js"></script>
