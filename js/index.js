@@ -16,11 +16,14 @@ $(document).scroll(() => {
 
 $(document).ready(() => {
   $(".tabs").click(function () {
-    $(this).toggleClass("flip-card");
     // tab bar active class
     $(".active-li").removeClass("active-li");
+    $(".tabs").css("animation-name", "");
+
     $(this).addClass("active-li");
     let activeIndex = $(this).index();
+
+    $(this).css("animation-name", "fade");
 
     // check radio
     $("li input[type=radio]").removeAttr("checked");
@@ -28,8 +31,8 @@ $(document).ready(() => {
 
     // load container when click
     $(".tab-container").addClass("d-none");
+    $(".tab-container .col-md-6").css("animation-name", "zoom-in");
     $(".tab-container").eq(activeIndex).removeClass("d-none");
-    console.log($(".tab-container").eq(activeIndex));
   });
 });
 
@@ -83,11 +86,11 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   },
 });
 
-// swiper testimonial slider
+// swiper choose slider
 let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
   loop: true,
   centeredSlides: true,
-  spaceBetween: 100,
+  spaceBetween: 70,
   speed: 2000,
   grabCursor: true,
   slidesPerView: "auto",
@@ -154,14 +157,13 @@ $(document).ready(() => {
   });
 });
 
+// circle with mouse
 $(document).on("click mousemove", "body", function (e) {
   var x = e.clientX;
   var y = e.clientY;
   // alert(x);
   var newposX = x - 100;
-  var newposY = y - 20;
-  $(".circle").css(
-    "transform",
-    "translate3d(" + newposX + "px," + newposY + "px,0px)"
-  );
+  var newposY = y - 100;
+  $(".circle").css("top", newposY + "px");
+  $(".circle").css("left", newposX + "px");
 });
