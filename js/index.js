@@ -13,7 +13,6 @@ $(document).scroll(() => {
 });
 
 // our service tab switch ajax
-
 $(document).ready(() => {
   $(".tabs").click(function () {
     // tab bar active class
@@ -36,8 +35,7 @@ $(document).ready(() => {
   });
 });
 
-// swiper blog slider
-
+////////////////// swiper blog slider
 let swiperBlog = new Swiper(".swiper-container-blog", {
   slidesPerView: "auto",
   spaceBetween: 30,
@@ -66,7 +64,7 @@ let swiperBlog = new Swiper(".swiper-container-blog", {
   },
 });
 
-// swiper testimonial slider
+////////////////// swiper testimonial slider
 let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   effect: "coverflow",
   loop: true,
@@ -86,7 +84,7 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   },
 });
 
-// swiper choose slider
+//////////////////// swiper choose slider
 let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
   loop: true,
   centeredSlides: true,
@@ -102,8 +100,8 @@ let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
     dynamicBullets: true,
   },
 });
-// scroll bar tab indicator
 
+////////////// scroll bar tab indicator
 $(document).ready(() => {
   let count = $(".bar-item").length;
 
@@ -132,7 +130,7 @@ $(document).ready(() => {
   });
 });
 
-// cards tilt Animation
+///////////// cards tilt Animation
 $(document).ready(() => {
   // header icon cards
   $(".inner").tilt({
@@ -157,7 +155,7 @@ $(document).ready(() => {
   });
 });
 
-// circle with mouse
+////////////// circle with mouse
 $(document).on("click mousemove", "body", function (e) {
   var x = e.clientX;
   var y = e.clientY;
@@ -166,4 +164,20 @@ $(document).on("click mousemove", "body", function (e) {
   var newposY = y - 100;
   $(".circle").css("top", newposY + "px");
   $(".circle").css("left", newposX + "px");
+});
+
+////////// faqs
+$(document).ready(function () {
+  $(".topic li").click(function (e) {
+    e.preventDefault();
+    // tab bar active class
+    $(".topic .active").removeClass("active");
+
+    $(this).addClass("active");
+    let activeIndex = $(this).index();
+
+    // load container when click
+    $(".topic-content .active").removeClass("active");
+    $(".topic-content .active-container").eq(activeIndex).addClass("active");
+  });
 });

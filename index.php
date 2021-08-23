@@ -117,7 +117,7 @@
 
 
    <!---------- about us  ------------>
-   <section class="mb-5" id="about-us">
+   <section class="" id="about-us">
       <!-- side caption  -->
       <h3 class="side-caption">About Us</h3>
       <!-- side caption  -->
@@ -160,12 +160,8 @@
             </div>
          </div>
       </div>
-
-
-
    </section>
 
-   <br>
    <section class="my-5 position-relative" id="why-choose">
       <!-- sidebar caption  -->
       <!-- <h3 class="side-caption">Why Choose Us</h3> -->
@@ -661,187 +657,223 @@
    <section class="my-5" id="USP">
       <h2 class="text-center mb-3">USP</h2>
 
-      <div class="icons-grid row mx-auto py-md-2">
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/cost-effective.svg" alt=""></div>
-         </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/legal-advice.svg" alt=""></div>
-         </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/legal-service.svg" alt=""></div>
-         </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/expert-lawyer.svg" alt=""></div>
-         </div>
-      </div>
-
-      <!-- mid section  -->
-      <div class="mid-sec py-5 theme-bg-orange">
-         <div class="content">
-            <h3 class="text-white title"><span>2o</span> Years of Experience in Various Cases</h3>
-            <p class="text-center sub-title">We understand that a client's needs are always diverse and dynamic.</p>
-            <div class="text-end">
-               <a href class="btn">know more</a>
+      <div class="row main-row mx-auto g-3 container-md py-4">
+         <div class="col-md-4 col-6 hover-cards-container">
+            <div class="hover-card">
+               <div class="bg-img-hover">
+                  <img src="https://images.unsplash.com/photo-1629377856766-72c3bb4c86c6?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+               </div>
+               <span class="nos">01</span>
+               <h3 class="title">title</h3>
+               <p class="para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatem.
+               </p>
             </div>
          </div>
-      </div>
-
-      <div class="bottom-sec row gy-4">
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/order.png" alt="">
-               <span class="nos">28000</span>
+         <div class="col-md-4 col-6 hover-cards-container">
+            <div class="hover-card">
+               <div class="bg-img-hover">
+                  <img src="https://images.unsplash.com/photo-1629704279981-435d23b31e27?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+               </div>
+               <span class="nos">02</span>
+               <h3 class="title">title</h3>
+               <p class="para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatem.
+               </p>
             </div>
-            <span>Order Created</span>
          </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/rating.png">
-               <span class="nos">4.9</span>
+         <div class="col-md-4 col-6 hover-cards-container">
+            <div class="hover-card">
+               <div class="bg-img-hover">
+                  <img src="https://images.unsplash.com/photo-1629666448297-56b25188f330?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+               </div>
+               <span class="nos">03</span>
+               <h3 class="title">title</h3>
+               <p class="para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatem.
+               </p>
             </div>
-            <span>Order Created</span>
          </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/companies.png" alt="">
-               <span class="nos">2000</span>
+         <div class="col-md-4 col-6 hover-cards-container">
+            <div class="hover-card">
+               <div class="bg-img-hover">
+                  <img src="https://images.unsplash.com/photo-1629685744999-97cd66a39b06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+               </div>
+               <span class="nos">04</span>
+               <h3 class="title">title</h3>
+               <p class="para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatem.
+               </p>
             </div>
-            <span>Order Created</span>
-         </div>
-         <div class="col-6 col-sm-3 icon">
-            <div><img src="image/experts.png" alt="">
-               <span class="nos">150</span>
-            </div>
-            <span>Order Created</span>
          </div>
       </div>
    </section>
 
 
    <!---------- FAQs section ------------>
-   <section class="my-5" id="faqs">
-      <h2 class="text-center main-title mb-5">Frequently Asked Questions</h2>
-      <!--- accordions faqs  ---->
-      <div class="container mx-auto">
-         <div class="accordion" id="accordionMain">
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                     What is the full form of GST?
-                  </button>
-               </h2>
-               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     GST stands for "Goods & Services Tax' and as the name itself explains, that the tax is imposed on goods and services.
-                  </div>
+   <section class="my-5 bg-light py-5" id="faqs">
+      <div class="container mx-auto border py-5 top-div">
+         <h1 class="text-center main-title mb-5">Frequently Asked Questions</h1>
+         <form class="mx-auto text-center">
+            <div class="search-bar mx-auto">
+               <input type="text" class="form-control search-bar border mx-auto rounded-pill" placeholder="Search for topics">
+               <button type="submit" class="btn search-btn"><i class="fas fa-search"></i></button>
+            </div>
+         </form>
+      </div>
+
+
+      <div class="row main-row container">
+         <!-- faqs topic -->
+         <div class="col-4 topic">
+            <h4 class="title">FAQ TOPICS</h4>
+            <ul class="list-unstyled">
+               <li class="active">
+                  <span class="icon fas fa-search-dollar"></span>
+                  <span class="btn topic-link">GST</span>
+               </li>
+               <li>
+                  <span class="icon fas fa-hand-holding-usd"></span>
+                  <span class="btn topic-link">Income Tax</span>
+               </li>
+               <li>
+                  <span class="icon fas fa-coins"></span>
+                  <span class="btn topic-link">Loan</span>
+               </li>
+               <li>
+                  <span class="icon fas fa-archive"></span>
+                  <span class="btn topic-link">Payroll Managment</span>
+               </li>
+               <li>
+                  <span class="icon fas fa-graduation-cap"></span>
+                  <span class="btn topic-link">ISO Registration</span>
+               </li>
+               <li>
+                  <span class="icon fas fa-headset"></span>
+                  <span class="btn topic-link">Support</span>
+               </li>
+            </ul>
+         </div>
+
+         <!-- faqs rel topics -->
+         <div class="col-8 topic-content">
+            <!-- first  -->
+            <div class="active-container active">
+               <div class="content-item">
+                  <span class="nos">01</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">02</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">03</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">04</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
             </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     What is the GST Registration process?
-                  </button>
-               </h2>
-               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
-                  </div>
+            <!-- second  -->
+            <div class="active-container">
+               <div class="content-item">
+                  <span class="nos">05</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">06</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">07</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">08</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
             </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     How to get a company registered?
-                  </button>
-               </h2>
-               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
-                  </div>
+            <!-- third  -->
+            <div class="active-container">
+               <div class="content-item">
+                  <span class="nos">09</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">10</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">11</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">12</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
             </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading4">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                     What is the full form of GST?
-                  </button>
-               </h2>
-               <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     GST stands for "Goods & Services Tax' and as the name itself explains, that the tax is imposed on goods and services.
-                  </div>
+            <!-- fourth  -->
+            <div class="active-container">
+               <div class="content-item">
+                  <span class="nos">13</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">14</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">15</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
+               </div>
+               <div class="content-item">
+                  <span class="nos">16</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
             </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading5">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                     What is the GST Registration process?
-                  </button>
-               </h2>
-               <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
-                  </div>
+            <!-- fifth  -->
+            <div class="active-container">
+               <div class="content-item">
+                  <span class="nos">17</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
                </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading6">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                     How to get a company registered?
-                  </button>
-               </h2>
-               <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
-                  </div>
+               <div class="content-item">
+                  <span class="nos">18</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading7">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                     How to get a company registered?
-                  </button>
-               </h2>
-               <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
-                  </div>
+               <div class="content-item">
+                  <span class="nos">19</span>
+                  <h2 class="question">What is GST ?</h2>
+                  <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tempore impedit. Rerum quos cumque corrupti laudantium perferendis dolorem maiores a debitis, cupiditate, tempora quasi esse nemo doloribus. Aperiam, natus culpa!</p>
                </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading8">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                     What is the GST Registration process?
-                  </button>
-               </h2>
-               <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.
-                  </div>
-               </div>
-            </div>
-            <div class="accordion-item">
-               <h2 class="accordion-header" id="heading9">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                     How to get a company registered?
-                  </button>
-               </h2>
-               <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionMain">
-                  <div class="accordion-body">
-                     You can learn about the Private Company registration using our expert services. This entire process usually takes 10-15 days to be completed. You only need to fill out a 10-minute questionnaire.
-                  </div>
+               <div class="content-item">
+                  <span class="nos">20</span>
+                  <h2 class="question">GST Registration process?</h2>
+                  <p class="answer"> A “Private limited company” is an entity which is privately held for small businesses. The responsibility of the members of a Private Limited Company is limited to the number of shares respectively held by them and it’s shares cannot be traded publicly.</p>
                </div>
             </div>
          </div>
 
-
-
-
-
-
-
-
-
-
-      </div>
    </section>
 
 
