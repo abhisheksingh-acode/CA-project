@@ -381,8 +381,10 @@ header {
       @include flex-column-start();
       padding: 70px 0;
       .inner-div {
-        background: #15426d url("../image/3.jpg") no-repeat;
-        background-size: 100% 100%;
+        background: #15426d
+          url("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGFjY291bnRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60")
+          no-repeat;
+        background-size: cover;
         background-blend-mode: multiply;
         box-shadow: -2px 3px 14px -6px rgba(0, 0, 0, 0.6);
         @include flex-column-start();
@@ -868,6 +870,50 @@ header {
   //     }
   //   }
   // }
+}
+
+#join-app {
+  .col-6 {
+    @include flex-column();
+    .inner-div {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+    .heading {
+      color: #efa434;
+    }
+    .sub-heading {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    form {
+      width: 100%;
+    }
+    .input-group {
+      width: 100%;
+
+      input::placeholder {
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
+    button {
+      background: $theme-blue;
+      color: #fff;
+    }
+
+    button[type="submit"] {
+      // padding: 8px 25px;
+      width: 45%;
+      align-self: center;
+      color: #fff;
+      background: $theme-blue;
+      padding: 10px;
+    }
+  }
 }
 
 #faqs {

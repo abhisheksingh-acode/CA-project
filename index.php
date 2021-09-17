@@ -710,6 +710,43 @@
    </section>
 
 
+   <!-- app download section  -->
+   <section class="my-5" id="join-app">
+      <div class="row mx-auto container-md">
+         <div class="col-4 ">
+            <div class="img-container">
+               <img src="image/1.png" alt="" class="" height="500px" width="auto">
+            </div>
+         </div>
+         <div class="col-6">
+            <div class="inner-div">
+               <h2 class="heading">Join our MSME Community.</h2>
+               <p class="sub-heading">Book Services, Ask Free Questions, share knowledge with Verified Experts.</p>
+               <span class="sub-heading">Download Our App</span>
+
+               <form action="" id="link-form">
+                  <div class="">
+                     <div class="input-group mb-3">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">+91</button>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Mobile Number">
+                     </div>
+                  </div>
+               </form>
+               <button type="submit" class="btn" form="link-form">Get Download Link</button>
+               <div class="row mx-auto justify-content-center mt-2">
+                  <div class="col-3"><img src="https://www.gigzoe.com/static/media/Android-Button.395c75d7.png" alt="" class="img-fluid"></div>
+                  <div class="col-3"><img src="https://www.gigzoe.com/static/media/Ios-Button.c68c9de3.png" alt="" class="img-fluid"></div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
    <!---------- FAQs section ------------>
    <section class="my-5 bg-light py-5" id="faqs">
       <div class="container mx-auto border py-5 top-div">
