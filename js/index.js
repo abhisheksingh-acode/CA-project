@@ -39,10 +39,13 @@ $(document).ready(() => {
 let swiperBlog = new Swiper(".swiper-container-blog", {
   slidesPerView: "auto",
   spaceBetween: 30,
-  // autoplay: {
-  //   delay: 2300,
-  //   disableOnInteraction: false,
-  // },
+  loop: true,
+  speed: 1000,
+
+  autoplay: {
+    delay: 2300,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     1180: {
       slidesPerView: "auto",
@@ -70,7 +73,9 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   loop: true,
   centeredSlides: true,
   spaceBetween: 60,
+  speed: 1200,
   slidesPerView: "auto",
+  loop: true,
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
@@ -81,6 +86,10 @@ let swiperTestimonial = new Swiper(".swiper-container-testimonial", {
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
   },
 });
 

@@ -117,10 +117,8 @@
 
 
    <!---------- about us  ------------>
-   <section class="" id="about-us">
-      <!-- side caption  -->
+   <!-- <section class="" id="about-us">
       <h3 class="side-caption">About Us</h3>
-      <!-- side caption  -->
 
 
       <div class="row container-md mx-auto gy-4 px-md-5 px-2 main-row">
@@ -160,14 +158,47 @@
             </div>
          </div>
       </div>
+   </section> -->
+
+   <section class="my-5 py-5" id="about-us">
+      <div class="row container-md mx-auto">
+         <div class="col-md-6 d-flex align-items-center">
+            <div class="inner-div">
+               <h1 class="title fw-bold" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About US</h1>
+
+               <p class="para" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi in nostrum, rerum eveniet accusantium saepe eum voluptatum dolorum! Accusantium, consequatur et.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eaque enim mollitia in natus amet eligendi sequi fugiat nostrum nesciunt quis commodi maxime temporibus, minima recusandae deserunt earum a voluptatum?
+               </p>
+               <div class="button" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-once="true">
+                  <a href="" class="btn an-btn">Read More</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-md-5 d-flex justify-content-center align-items-center">
+            <div class="img-container mx-auto text-center">
+               <img src="./image/about-us.svg" alt="" class="img-fluid">
+            </div>
+         </div>
+      </div>
    </section>
+
+
+
+
+
+
+
+
+
 
    <section class="my-5 position-relative" id="why-choose">
       <!-- sidebar caption  -->
       <!-- <h3 class="side-caption">Why Choose Us</h3> -->
 
       <div class="row mx-auto main-row">
-         <h2 class="text-center">Why Choose Us</h2>
+         <h2 class="text-center">Why Choose <span class="brandFont fw-bold">ConsoLegal</span></h2>
          <h6 class="text-muted text-center fw-normal">Lorem ipsum dolor sit amet</h6>
          <div class="swiper-container-why-choose mx-auto">
             <div class="swiper-wrapper">
@@ -242,6 +273,8 @@
       <h3 class="side-caption">Services</h3>
       <!-- side caption  -->
       <div class="row main-row mx-auto p-0">
+         <h2 class="text-center mb-4">Services Offered at <span class="brandFont fw-bold">ConsoLegal</span></h2>
+
          <!-- left section  -->
          <div class="col-12 col-md-3 lt">
             <div class="tabs-div">
@@ -713,7 +746,7 @@
    <!-- app download section  -->
    <section class="my-5" id="join-app">
       <div class="row mx-auto container-md">
-         <div class="col-4 ">
+         <div class="col-6 ">
             <div class="img-container">
                <img src="image/1.png" alt="" class="" height="500px" width="auto">
             </div>
@@ -738,8 +771,8 @@
                </form>
                <button type="submit" class="btn" form="link-form">Get Download Link</button>
                <div class="row mx-auto justify-content-center mt-2">
-                  <div class="col-3"><img src="https://www.gigzoe.com/static/media/Android-Button.395c75d7.png" alt="" class="img-fluid"></div>
-                  <div class="col-3"><img src="https://www.gigzoe.com/static/media/Ios-Button.c68c9de3.png" alt="" class="img-fluid"></div>
+                  <div class="col-7"><img src="./image/android-ios.png" alt="" class="img-fluid"></div>
+                  <!-- <div class="col-3"><img src="https://www.gigzoe.com/static/media/Ios-Button.c68c9de3.png" alt="" class="img-fluid"></div> -->
                </div>
             </div>
 
@@ -762,8 +795,9 @@
 
       <div class="row main-row container">
          <!-- faqs topic -->
-         <div class="col-4 topic">
+         <div class="col-3 topic">
             <h4 class="title">FAQ TOPICS</h4>
+            <hr>
             <ul class="list-unstyled">
                <li class="active">
                   <span class="icon fas fa-search-dollar"></span>
@@ -791,7 +825,7 @@
                </li>
             </ul>
          </div>
-
+         <div class="col-1"></div>
          <!-- faqs rel topics -->
          <div class="col-8 topic-content">
             <!-- first  -->
@@ -1067,7 +1101,7 @@
    <section class="my-5 " id="testimonial">
       <h2 class="text-center main-title">What Our Clients Says</h2>
 
-      <div class="swiper-container-testimonial">
+      <div class="swiper-container-testimonial ">
          <div class="swiper-wrapper">
             <div class="swiper-slide slide1">
                <div class="testimonial-card">

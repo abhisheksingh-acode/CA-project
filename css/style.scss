@@ -107,12 +107,16 @@ $font-heading-lg: 20px;
 // css
 
 body {
-  // font-family: "poppins-light", Helvetica, sans-serif;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "poppins-light", Helvetica, sans-serif;
+  // font-family: Arial, Helvetica, sans-serif;
 }
 h1,
 h2 {
   font-weight: bold;
+}
+
+.brandFont {
+  font-family: cursive, "poppins-bold";
 }
 
 #login-btn {
@@ -249,23 +253,32 @@ header {
   background: url("../image/bg.png") no-repeat;
   background-position: 50% 150px;
   background-size: 100% 100%;
+  position: relative;
   #search {
     position: relative;
     input {
       border-radius: 10px;
-      padding: 8px 20px;
+      padding: 11px 20px;
       border-width: 0;
-      box-shadow: -1px 2px 10px -6px rgba(0, 0, 0, 0.377);
+      box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.418);
+    }
+    input::placeholder {
+      font-size: 15px;
     }
   }
   #search::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f002";
+    // font-family: "Font Awesome 5 Free";
+    // font-weight: 900;
+    // content: "\f002";
+    content: "Get Started";
     position: absolute;
-    right: 5%;
-    transform: translateY(40%);
-    color: $theme-orange;
+    right: 3%;
+    background: $theme-blue;
+    transform: translateY(26%);
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: $theme-white;
+    font-size: 14px;
     cursor: pointer;
   }
 
@@ -370,90 +383,72 @@ header {
     }
   }
 }
+header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: url("../image/Group\ 4.svg") no-repeat center top;
+  background-size: 70%;
+  z-index: -2;
+}
 
 #about-us {
   position: relative;
-  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.8) url("../image/Group\ 2.svg") no-repeat
+    center center;
+  background-size: contain;
   padding: 10px 10px;
-  .main-row {
-    position: relative;
-    .lt {
-      @include flex-column-start();
-      padding: 70px 0;
-      .inner-div {
-        background: #15426d
-          url("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGFjY291bnRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60")
-          no-repeat;
-        background-size: cover;
-        background-blend-mode: multiply;
-        box-shadow: -2px 3px 14px -6px rgba(0, 0, 0, 0.6);
-        @include flex-column-start();
-        padding: 40px;
-        padding-right: 20%;
-        height: 100%;
-        width: 100%;
-        cursor: pointer;
-        overflow: hidden;
-        .title {
-          color: #fff;
-        }
-        .para {
-          color: #fff;
-          font-size: 14px;
-        }
-        .circle {
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          background: #2678c46c;
-          position: absolute;
-        }
-      }
-    }
-
-    .rt {
-      padding: 90px 0;
-      @include flex-column();
-      form {
-        min-width: 300px;
-        background: #fff;
-        width: 100%;
-        padding: 30px 20px;
-        box-shadow: 2px 3px 14px -6px rgba(0, 0, 0, 0.6);
-        transform: translateX(-10%);
-
-        input {
-          outline: none;
-          border-color: transparent;
-          border-bottom-color: #ddd;
-          margin: 20px 0;
-        }
-        input::placeholder {
-          font-size: 13px;
-        }
-        input:focus,
-        textarea:focus {
-          box-shadow: none;
-          outline: none;
-        }
-        .btn {
-          width: fit-content;
-          padding: 5px 20px;
-          background-color: $theme-blue;
-          transition: all 0.2s ease-in-out;
-        }
-        .btn:hover {
-          background-color: #0d2f4e;
-        }
-      }
-    }
-  }
 }
 
+.an-btn {
+  width: fit-content;
+  background: #fff;
+  border-radius: 0;
+  font-weight: 500;
+  color: $theme-orange;
+  border: none;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px -7px rgba(0, 0, 0, 0.473);
+  overflow: hidden;
+  cursor: pointer;
+}
+.an-btn::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  background: #fdb03b;
+  transform: scale(0);
+}
+.an-btn:hover {
+  color: #fff;
+  transition: all 0.2s ease;
+  border-color: transparent;
+  box-shadow: 2px 3px 13px -3px #efa434b4;
+}
+.an-btn:hover::after {
+  transition: all 0.6s ease;
+  transform: scale(7);
+  z-index: -1;
+}
+
+#why-choose {
+  background: rgba(255, 255, 255, 0.8) url("../image/Group\ 5.svg") no-repeat
+    center center;
+  background-size: contain;
+}
 .swiper-container-why-choose {
   overflow: hidden;
   width: 70%;
   position: relative;
+
   .swiper-slide {
     width: 65%;
     height: fit-content !important;
@@ -520,7 +515,9 @@ header {
 
 #our-service {
   border-top: 0.5px solid rgba(177, 173, 173, 0.295);
-  background: #fbfbfb;
+  background: rgba(255, 255, 255, 0.8) url("../image/Group\ 6.svg") no-repeat
+    right center;
+  background-size: 70%;
   padding: 30px 0;
   .main-row {
     width: 90%;
@@ -561,7 +558,7 @@ header {
               height: 17px;
               border-radius: 50%;
               border: 2px solid rgba(0, 0, 0, 0.322);
-              // box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.986);
+              // box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.886);
             }
             input[type="radio"]:checked + label::after {
               content: "\f00c";
@@ -738,7 +735,7 @@ header {
   .main-row {
     .hover-cards-container {
       .hover-card {
-        background: #222;
+        background: rgba(34, 34, 34, 0.877);
         position: relative;
         height: 220px;
         padding: 15px;
@@ -958,10 +955,11 @@ header {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     .topic {
+      background: #f2faff;
+      padding: 20px 10px;
       .title {
-        font-size: 18px;
-        font-weight: 600;
-        // font-family: "poppins", arial;
+        font-size: 24px;
+        font-family: "poppins-med";
       }
       ul li {
         @include flex-row-start();
@@ -973,10 +971,14 @@ header {
         .topic-link {
           // color: $theme-orange;
           text-transform: capitalize;
-          font-size: 15px;
-          font-weight: 500;
+          font-size: 17px;
+          font-weight: normal;
+        }
+        .topic-link:hover {
+          font-weight: bold;
         }
       }
+
       .active {
         .icon {
           color: $theme-orange;
@@ -985,6 +987,7 @@ header {
         .topic-link {
           color: $theme-orange;
           transition: all 0.2s ease;
+          font-weight: bold;
         }
       }
     }
@@ -1074,8 +1077,8 @@ header {
           text-align: center;
           padding-bottom: 15px;
           .btn {
-            border: 2px solid $theme-orange;
-            border-radius: 0;
+            border: 1px solid $theme-orange;
+            border-radius: 20px;
             transition: all 0.2s linear;
           }
           .btn:hover {
@@ -1091,12 +1094,18 @@ header {
   .swiper-prev-btn {
     position: absolute;
     top: 53%;
-    font-size: 35px;
-    border: 1px solid;
+    font-size: 15px;
+    border: none;
     background: $theme-blue;
     color: #fff;
     z-index: 2;
-    padding: 5px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 12px -1px rgba(0, 0, 0, 0.342);
   }
   .swiper-next-btn {
     right: 10px;
@@ -1142,6 +1151,9 @@ header {
 
 #testimonial {
   padding: 20px 0;
+  background: rgba(255, 255, 255, 0.8) url("../image/Group\ 2.svg") no-repeat
+    right center;
+  background-size: 70%;
   .main-title {
     text-align: center;
   }
