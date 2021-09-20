@@ -250,10 +250,12 @@ header {
   padding: 0;
   padding-bottom: 110px;
   margin: 0;
-  // background: url("../image/bg.png") no-repeat;
+  background: rgba(0, 0, 0, 0) url("../image/bg.png") no-repeat;
   background-position: 50% 150px;
+  background-blend-mode: lighten;
   background-size: 100% 100%;
   position: relative;
+  // clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
   #search {
     position: relative;
     input {
@@ -393,6 +395,7 @@ header::after {
   background: rgba(224, 235, 248, 0.226) url("../image/home-svg.svg") no-repeat
     center top;
   background-size: cover;
+
   z-index: -2;
 }
 
@@ -402,6 +405,75 @@ header::after {
     center center;
   background-size: contain;
   padding: 10px 10px;
+
+  .para {
+    margin: 0;
+  }
+
+  .rt {
+    position: relative;
+    .img-container {
+      background: $theme-blue-light;
+      max-width: 80%;
+      img {
+        height: auto;
+      }
+    }
+    .float {
+      position: absolute;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background: #fff;
+      padding: 15px 10px;
+      min-width: 200px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+
+      .icon {
+        color: $theme-white;
+        margin-right: 20px;
+        background-color: mediumslateblue;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+      }
+      .caption {
+        font-size: 14px;
+      }
+      .nos {
+        font-weight: bold;
+      }
+    }
+    .float1 {
+      top: 10%;
+      left: -90px;
+    }
+    .float2 {
+      top: 40%;
+      left: -90px;
+      .icon {
+        background-color: mediumseagreen;
+      }
+    }
+    .float3 {
+      top: 18%;
+      right: -70px;
+      .icon {
+        background-color: orangered;
+      }
+    }
+    .float4 {
+      top: 48%;
+      right: -70px;
+      .icon {
+        background-color: cornflowerblue;
+      }
+    }
+  }
 }
 
 .an-btn {
@@ -440,8 +512,6 @@ header::after {
   z-index: -1;
 }
 
-#why-choose {
-}
 .swiper-container-why-choose {
   overflow: hidden;
   width: 70%;
@@ -518,7 +588,7 @@ header::after {
   border-top: 0.5px solid rgba(177, 173, 173, 0.295);
   background: rgba(255, 255, 255, 0.8) url("../image/Group\ 6.svg") no-repeat
     right center;
-  background-size: 70%;
+  background-size: cover;
   padding: 30px 0;
   .main-row {
     width: 90%;
@@ -1152,7 +1222,7 @@ header::after {
 
 #testimonial {
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.8) url("../image/Group\ 2.svg") no-repeat
+  background: rgba(255, 255, 255, 0.8) url("../image/testimonial.svg") no-repeat
     right center;
   background-size: 70%;
   .main-title {

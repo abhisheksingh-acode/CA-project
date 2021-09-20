@@ -98,7 +98,7 @@ let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
   loop: true,
   centeredSlides: true,
   spaceBetween: 70,
-  speed: 2000,
+  speed: 2500,
   grabCursor: true,
   slidesPerView: "auto",
   navigation: {
@@ -107,6 +107,10 @@ let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
   },
 });
 

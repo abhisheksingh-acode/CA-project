@@ -221,7 +221,9 @@ header {
   padding: 0;
   padding-bottom: 110px;
   margin: 0;
+  background: rgba(0, 0, 0, 0) url("../image/bg.png") no-repeat;
   background-position: 50% 150px;
+  background-blend-mode: lighten;
   background-size: 100% 100%;
   position: relative;
 }
@@ -457,6 +459,100 @@ header::after {
   padding: 10px 10px;
 }
 
+#about-us .para {
+  margin: 0;
+}
+
+#about-us .rt {
+  position: relative;
+}
+
+#about-us .rt .img-container {
+  background: #c2dbec;
+  max-width: 80%;
+}
+
+#about-us .rt .img-container img {
+  height: auto;
+}
+
+#about-us .rt .float {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  padding: 15px 10px;
+  min-width: 200px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+}
+
+#about-us .rt .float .icon {
+  color: #fff;
+  margin-right: 20px;
+  background-color: mediumslateblue;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+}
+
+#about-us .rt .float .caption {
+  font-size: 14px;
+}
+
+#about-us .rt .float .nos {
+  font-weight: bold;
+}
+
+#about-us .rt .float1 {
+  top: 10%;
+  left: -90px;
+}
+
+#about-us .rt .float2 {
+  top: 40%;
+  left: -90px;
+}
+
+#about-us .rt .float2 .icon {
+  background-color: mediumseagreen;
+}
+
+#about-us .rt .float3 {
+  top: 18%;
+  right: -70px;
+}
+
+#about-us .rt .float3 .icon {
+  background-color: orangered;
+}
+
+#about-us .rt .float4 {
+  top: 48%;
+  right: -70px;
+}
+
+#about-us .rt .float4 .icon {
+  background-color: cornflowerblue;
+}
+
 .an-btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -617,7 +713,7 @@ header::after {
 #our-service {
   border-top: 0.5px solid rgba(177, 173, 173, 0.295);
   background: rgba(255, 255, 255, 0.8) url("../image/Group 6.svg") no-repeat right center;
-  background-size: 70%;
+  background-size: cover;
   padding: 30px 0;
 }
 
@@ -1449,7 +1545,7 @@ header::after {
 
 #testimonial {
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.8) url("../image/Group 2.svg") no-repeat right center;
+  background: rgba(255, 255, 255, 0.8) url("../image/testimonial.svg") no-repeat right center;
   background-size: 70%;
 }
 

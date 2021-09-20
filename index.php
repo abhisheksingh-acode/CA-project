@@ -162,25 +162,52 @@
 
    <section class="my-5 py-5" id="about-us">
       <div class="row container-md mx-auto">
-         <div class="col-md-6 d-flex align-items-center">
-            <div class="inner-div">
-               <h1 class="title fw-bold" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About US</h1>
+         <div class="col-md-5 d-flex align-items-center lt">
+            <div class="inner-div ">
+               <h1 class="title fw-bold" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
 
-               <p class="para" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi in nostrum, rerum eveniet accusantium saepe eum voluptatum dolorum! Accusantium, consequatur et.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eaque enim mollitia in natus amet eligendi sequi fugiat nostrum nesciunt quis commodi maxime temporibus, minima recusandae deserunt earum a voluptatum?
-               </p>
+               <p class="para my-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi eum voluptatum dolorum! Accusantium, consequatur et. Accusantium, consequatur et.</p>
                <div class="button" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-once="true">
                   <a href="" class="btn an-btn">Read More</a>
                </div>
             </div>
          </div>
          <div class="col-md-1"></div>
-         <div class="col-md-5 d-flex justify-content-center align-items-center">
+         <div class="col-md-6 d-flex justify-content-center rt align-items-center">
             <div class="img-container mx-auto text-center">
                <img src="./image/about-us.svg" alt="" class="img-fluid">
             </div>
+            <div class="float float1">
+               <div class="icon"><i class="fas fa-user"></i></div>
+               <div class="main">
+                  <div class="caption">Happy clients</div>
+                  <div class="nos">200+</div>
+               </div>
+            </div>
+            <div class="float float2">
+               <div class="icon"><i class="fas fa-file-alt"></i></div>
+               <div class="main">
+                  <div class="caption">Projects Delivered</div>
+                  <div class="nos">250+</div>
+               </div>
+            </div>
+            <div class="float float3">
+               <div class="icon"><i class="fas fa-trophy"></i></div>
+               <div class="main">
+                  <div class="caption">Awards Received</div>
+                  <div class="nos">20+</div>
+               </div>
+            </div>
+            <div class="float float4">
+               <div class="icon"><i class="far fa-building"></i></div>
+               <div class="main">
+                  <div class="caption">Industries Served</div>
+                  <div class="nos">30+</div>
+               </div>
+            </div>
          </div>
+         <!-- <div class="col-md-1"></div> -->
       </div>
    </section>
 
