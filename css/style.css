@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: "poppins-bold";
-  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
 body {
@@ -1142,6 +1142,112 @@ header::after {
           transform: translateY(-20px);
 }
 
+#our-process {
+  padding: 50px 0;
+  background: url("../image/Group 5.svg") no-repeat center center;
+  background-size: cover;
+}
+
+#our-process .lt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#our-process .lt .title {
+  font-weight: bolder;
+  font-size: 36px;
+  color: #15426d;
+  margin: 0;
+}
+
+#our-process .lt .sub-title {
+  font-family: "poppins-light";
+  font-size: 15px;
+  white-space: pre-line;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#our-process .lt .img-container {
+  max-width: 60%;
+}
+
+#our-process .rt {
+  padding: 0;
+  padding-top: 40px;
+}
+
+#our-process .rt .accordions {
+  border-left: 1px solid #74767983;
+  padding: 0;
+  padding-left: 20px;
+}
+
+#our-process .rt .accordions .accordion-box {
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+
+#our-process .rt .accordions .accordion-box .title {
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#our-process .rt .accordions .accordion-box .title::after,
+#our-process .rt .accordions .accordion-box .show::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #1a568f;
+  -webkit-box-shadow: 0px 0px 10px #b7d6ff, 0px 0px 20px rgba(119, 178, 255, 0.89);
+          box-shadow: 0px 0px 10px #b7d6ff, 0px 0px 20px rgba(119, 178, 255, 0.89);
+  border-radius: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 3px;
+  left: -48px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#our-process .rt .accordions .accordion-box .show::after {
+  background-color: #efa434;
+  -webkit-box-shadow: 0px 0px 10px #ffe499, 0px 0px 20px rgba(255, 212, 119, 0.89);
+          box-shadow: 0px 0px 10px #ffe499, 0px 0px 20px rgba(255, 212, 119, 0.89);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#our-process .rt .accordions .accordion-box .show {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#our-process .rt .accordions .accordion-box .dropdown-content {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#our-process .rt .accordions .accordion-box .dropdown-content .desc {
+  font-size: 15px;
+  width: 70%;
+}
+
 #join-app .col-6 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1441,18 +1547,6 @@ header::after {
 #blogs .swiper-container-blog .swiper-slide .blog-card-container .read-more {
   text-align: center;
   padding-bottom: 15px;
-}
-
-#blogs .swiper-container-blog .swiper-slide .blog-card-container .read-more .btn {
-  border: 1px solid #efa434;
-  border-radius: 20px;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#blogs .swiper-container-blog .swiper-slide .blog-card-container .read-more .btn:hover {
-  color: #fff;
-  background: #efa434;
 }
 
 #blogs .swiper-next-btn,

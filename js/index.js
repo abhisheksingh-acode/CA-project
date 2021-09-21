@@ -168,15 +168,15 @@ $(document).ready(() => {
   });
 });
 
-////////////// circle with mouse
-$(document).on("click mousemove", "body", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  // alert(x);
-  var newposX = x - 100;
-  var newposY = y - 100;
-  $(".circle").css("top", newposY + "px");
-  $(".circle").css("left", newposX + "px");
+////// our process accordions
+
+$(document).ready(function () {
+  $(".accordions .dropdown-content").hide();
+  $(".accordions .accordion-box").click(function () {
+    let index = $(this).index();
+    $(".accordions .dropdown-content").eq(index).toggle();
+    $(".accordions .title").eq(index).toggleClass("show");
+  });
 });
 
 ////////// faqs

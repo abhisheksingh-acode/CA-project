@@ -770,6 +770,57 @@
    </section>
 
 
+   <!-- our process  -->
+   <section class="my-5" id="our-process">
+      <div class="row container-md mx-auto main-row">
+         <div class="col-md-6 lt">
+            <div class="">
+               <h3 class="title">How Our Process Works</h3>
+               <p class="sub-title">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Facere, fuga.</p>
+            </div>
+
+            <div class="img-container">
+               <img src="image/about-us.svg" alt="" class="img-fluid">
+            </div>
+         </div>
+         <div class="col-md-6 rt">
+            <div class="accordions">
+               <div class="accordion-box">
+                  <div class="title">How we analise your need 5?</div>
+                  <div class="dropdown-content">
+                     <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
+                  </div>
+               </div>
+               <div class="accordion-box">
+                  <div class="title">How we analise your need 1?</div>
+                  <div class="dropdown-content">
+                     <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
+                  </div>
+               </div>
+               <div class="accordion-box">
+                  <div class="title">How we analise your need2 ?</div>
+                  <div class="dropdown-content">
+                     <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
+                  </div>
+               </div>
+               <div class="accordion-box">
+                  <div class="title">How we analise your need 3?</div>
+                  <div class="dropdown-content">
+                     <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
+                  </div>
+               </div>
+               <div class="accordion-box">
+                  <div class="title">How we analise your need 3?</div>
+                  <div class="dropdown-content">
+                     <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
    <!-- app download section  -->
    <section class="my-5" id="join-app">
       <div class="row mx-auto container-md">
@@ -1001,7 +1052,7 @@
                      </ol>
 
                   </div>
-                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+                  <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
                </div>
             </div>
             <!-- slide 2 -->
@@ -1023,7 +1074,7 @@
                         <li>What are Operator calls or operator based tips?</li>
                      </ol>
                   </div>
-                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+                  <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
                </div>
             </div>
             <!-- slide3 -->
@@ -1045,7 +1096,7 @@
                         <li>What are Operator calls or operator based tips?</li>
                      </ol>
                   </div>
-                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+                  <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
                </div>
             </div>
             <!-- slide 4 -->
@@ -1067,7 +1118,7 @@
                         <li>What are Operator calls or operator based tips?</li>
                      </ol>
                   </div>
-                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+                  <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
                </div>
             </div>
             <!-- slide 5 -->
@@ -1089,7 +1140,7 @@
                         <li>What are Operator calls or operator based tips?</li>
                      </ol>
                   </div>
-                  <div class="read-more"><a href="" class="btn">Read More</a></div>
+                  <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
                </div>
             </div>
          </div>

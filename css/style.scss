@@ -99,7 +99,7 @@ $font-heading-lg: 20px;
 }
 @font-face {
   font-family: "poppins-bold";
-  src: url("../fonts/Poppins/Poppins-Thin.ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 
 // font-families
@@ -940,6 +940,86 @@ header::after {
   // }
 }
 
+#our-process {
+  padding: 50px 0;
+  // background-image: linear-gradient(0deg, $theme-white 70%, $theme-blue-light);
+  background: url("../image/Group\ 5.svg") no-repeat center center;
+  background-size: cover;
+  .lt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .title {
+      font-weight: bolder;
+      font-size: 36px;
+      color: $theme-blue;
+      margin: 0;
+    }
+    .sub-title {
+      font-family: "poppins-light";
+      font-size: 15px;
+      white-space: pre-line;
+      align-self: flex-start;
+    }
+    .img-container {
+      max-width: 60%;
+    }
+  }
+  .rt {
+    padding: 0;
+    padding-top: 40px;
+    .accordions {
+      border-left: 1px solid #74767983;
+      padding: 0;
+      padding-left: 20px;
+
+      .accordion-box {
+        margin-bottom: 40px;
+        padding-left: 20px;
+        .title {
+          font-weight: bold;
+          font-size: 17px;
+          position: relative;
+          transition: all 0.4s ease;
+        }
+        .title::after,
+        .show::after {
+          content: "";
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          background: #1a568f;
+          box-shadow: 0px 0px 10px rgb(183, 214, 255),
+            0px 0px 20px rgba(119, 178, 255, 0.89);
+          border-radius: 3px;
+          transform: rotate(45deg);
+          top: 3px;
+          left: -48px;
+          transition: all 0.4s ease;
+        }
+        .show::after {
+          background-color: $theme-orange;
+          box-shadow: 0px 0px 10px rgb(255, 228, 153),
+            0px 0px 20px rgba(255, 212, 119, 0.89);
+          transform: rotate(0deg);
+        }
+        .show {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .dropdown-content {
+          transition: all 0.4s ease;
+          .desc {
+            font-size: 15px;
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
 #join-app {
   .col-6 {
     @include flex-column();
@@ -1147,15 +1227,15 @@ header::after {
         .read-more {
           text-align: center;
           padding-bottom: 15px;
-          .btn {
-            border: 1px solid $theme-orange;
-            border-radius: 20px;
-            transition: all 0.2s linear;
-          }
-          .btn:hover {
-            color: #fff;
-            background: $theme-orange;
-          }
+          // .btn {
+          //   border: 1px solid $theme-orange;
+          //   border-radius: 20px;
+          //   transition: all 0.2s linear;
+          // }
+          // .btn:hover {
+          //   color: #fff;
+          //   background: $theme-orange;
+          // }
         }
       }
     }
