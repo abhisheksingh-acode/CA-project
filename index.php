@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- title should be on top  -->
-<?php $title = 'index page'; ?>
+<?php $title = 'ConsoLegal | Home'; ?>
 <?php include './incl/head.php'; ?>
 
 <body>
@@ -87,27 +87,6 @@
                   <span>Registration Certificate</span>
                </div>
             </div>
-            <!-- <div class="icon col-6 col-md-4">
-               <img src="image/web-dev.png" alt="">
-               <span>Web development</span>
-            </div>
-            <div class="icon col-6 col-md-4">
-               <img src="image/ecommerce.png" alt="">
-               <span>ecommerce services</span>
-            </div> -->
-            <!-- <div class="icon col-6 col-md-4">
-               <img src="image/content.png" alt="">
-               <span>content services</span>
-            </div> -->
-            <!-- <div class="icon col-6 col-md-4">
-               <img src="image/gui.webp" alt="">
-               <span>Graphic and UI design</span>
-            </div>
-            <div class="icon col-6 col-md-4">
-               <img src="image/marketing.png" alt="">
-               <span>marketing services</span>
-            </div> -->
-
          </div>
       </div>
 
@@ -116,49 +95,6 @@
    </header>
 
 
-   <!---------- about us  ------------>
-   <!-- <section class="" id="about-us">
-      <h3 class="side-caption">About Us</h3>
-
-
-      <div class="row container-md mx-auto gy-4 px-md-5 px-2 main-row">
-         <div class="rt col-12 col-sm-4 order-2 order-md-2">
-            <form class="mx-auto">
-               <h3 class="main-title text-center mb-4">Quick Inquery</h3>
-               <div class="mb-3">
-                  <input type="text" placeholder="Enter Your Name" class="form-control">
-               </div>
-               <div class="mb-3">
-                  <input type="email" class="form-control" placeholder="Enter Your Email">
-               </div>
-               <div class="mb-3">
-                  <input type="text" class="form-control" placeholder="Enter Your Phone">
-               </div>
-               <div class="mb-3">
-                  <textarea class="form-control" placeholder="Message..."></textarea>
-               </div>
-
-               <div class="text-center">
-                  <button type="submit" class="btn text-white mx-auto">Submit</button>
-               </div>
-            </form>
-         </div>
-         <div class="lt col-12 col-sm-8 order-1 order-md-1">
-            <div class="inner-div ms-auto">
-               <div class="circle"></div>
-               <h3 class="title " data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About US</h3>
-
-               <p class="para" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi in nostrum, rerum eveniet accusantium saepe eum voluptatum dolorum! Accusantium, consequatur et.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eaque enim mollitia in natus amet eligendi sequi fugiat nostrum nesciunt quis commodi maxime temporibus, minima recusandae deserunt earum a voluptatum?
-               </p>
-               <div class="button" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-once="true">
-                  <a href="" class="btn btn-danger text-white">Read More</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section> -->
 
    <section class="my-5 py-5" id="about-us">
       <div class="row container-md mx-auto">
@@ -793,14 +729,14 @@
                   </div>
                </div>
                <div class="accordion-box">
-                  <div class="title">How we analise your need 1?</div>
-                  <div class="dropdown-content">
+                  <div class="title show">How we analise your need 1?</div>
+                  <div class="dropdown-content ">
                      <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
                   </div>
                </div>
                <div class="accordion-box">
-                  <div class="title">How we analise your need2 ?</div>
-                  <div class="dropdown-content">
+                  <div class="title show">How we analise your need2 ?</div>
+                  <div class="dropdown-content ">
                      <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
                   </div>
                </div>

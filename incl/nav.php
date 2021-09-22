@@ -146,7 +146,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-nav sticky-top flex-column">
    <div class="container-fluid px-3 border-bottom">
-      <a class="navbar-brand" href="/"><img src="./image/logo.jpeg" alt="" width="auto" height="55px"></a>
+      <a class="navbar-brand" href="index.php"><img src="./image/logo.jpeg" alt="" width="auto" height="55px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
@@ -316,6 +316,9 @@
                <li><a class="dropdown-item" href="#">Home Loan</a></li>
                <li><a class="dropdown-item" href="#">Car Loan</a></li>
             </ul>
+         </li>
+         <li class="nav-item">
+            <a href="blogs.php" class="nav-link">Blogs</a>
          </li>
       </ul>
    </div>

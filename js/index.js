@@ -114,6 +114,28 @@ let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
   },
 });
 
+//////////////////// swiper most popular post
+let swiperPopularPost = new Swiper(".swiper-popular-post", {
+  loop: true,
+  // centeredSlides: true,
+  spaceBetween: 40,
+  speed: 2500,
+  grabCursor: true,
+  slidesPerView: "auto",
+  navigation: {
+    nextEl: ".swiper-btn-next",
+    prevEl: ".swiper-btn-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+});
+
 ////////////// scroll bar tab indicator
 $(document).ready(() => {
   let count = $(".bar-item").length;
@@ -171,7 +193,7 @@ $(document).ready(() => {
 ////// our process accordions
 
 $(document).ready(function () {
-  $(".accordions .dropdown-content").hide();
+  $(".accordions .title:not(.show) + .dropdown-content").hide();
   $(".accordions .accordion-box").click(function () {
     let index = $(this).index();
     $(".accordions .dropdown-content").eq(index).toggle();
