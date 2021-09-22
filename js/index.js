@@ -194,10 +194,14 @@ $(document).ready(() => {
 
 $(document).ready(function () {
   $(".accordions .title:not(.show) + .dropdown-content").hide();
+
   $(".accordions .accordion-box").click(function () {
+    $(".accordions .show").removeClass("show");
     let index = $(this).index();
-    $(".accordions .dropdown-content").eq(index).toggle();
-    $(".accordions .title").eq(index).toggleClass("show");
+    $(".accordions .title").eq(index).addClass("show");
+
+    $(".accordions .title:not(.show) + .dropdown-content").hide();
+    $(".accordions .show + .dropdown-content").show();
   });
 });
 

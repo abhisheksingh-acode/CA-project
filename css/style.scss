@@ -943,8 +943,9 @@ header::after {
 #our-process {
   padding: 50px 0;
   // background-image: linear-gradient(0deg, $theme-white 70%, $theme-blue-light);
-  background: url("../image/Group\ 5.svg") no-repeat center center;
-  background-size: cover;
+  background: url("../image/Group\ 5.svg") no-repeat center -60px;
+  // background-attachment: fixed;
+  background-size: 1100px 100%;
   .lt {
     display: flex;
     flex-direction: column;
@@ -996,7 +997,7 @@ header::after {
           transform: rotate(45deg);
           top: 3px;
           left: -48px;
-          transition: all 0.4s ease;
+          transition: all 0.2s linear;
         }
         .show::after {
           background-color: $theme-orange;
@@ -1009,7 +1010,6 @@ header::after {
           font-weight: bold;
         }
         .dropdown-content {
-          transition: all 0.4s ease;
           .desc {
             font-size: 15px;
             width: 70%;

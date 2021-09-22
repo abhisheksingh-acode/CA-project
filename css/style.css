@@ -1144,8 +1144,8 @@ header::after {
 
 #our-process {
   padding: 50px 0;
-  background: url("../image/Group 5.svg") no-repeat center center;
-  background-size: cover;
+  background: url("../image/Group 5.svg") no-repeat center -60px;
+  background-size: 1100px 100%;
 }
 
 #our-process .lt {
@@ -1221,8 +1221,8 @@ header::after {
           transform: rotate(45deg);
   top: 3px;
   left: -48px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 #our-process .rt .accordions .accordion-box .show::after {
@@ -1236,11 +1236,6 @@ header::after {
 #our-process .rt .accordions .accordion-box .show {
   font-size: 20px;
   font-weight: bold;
-}
-
-#our-process .rt .accordions .accordion-box .dropdown-content {
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 #our-process .rt .accordions .accordion-box .dropdown-content .desc {

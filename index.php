@@ -730,12 +730,12 @@
                </div>
                <div class="accordion-box">
                   <div class="title show">How we analise your need 1?</div>
-                  <div class="dropdown-content ">
+                  <div class="dropdown-content">
                      <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
                   </div>
                </div>
                <div class="accordion-box">
-                  <div class="title show">How we analise your need2 ?</div>
+                  <div class="title">How we analise your need2 ?</div>
                   <div class="dropdown-content ">
                      <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iste sequi quibusdam eligendi perferendis vel exercitationem illo magni fugit culpa!</p>
                   </div>
