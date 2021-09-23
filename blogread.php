@@ -28,7 +28,7 @@
 
       <div class="content-section container-md row mx-auto">
          <div class="col-md-1"></div>
-         <div class="col-md-8 content-align-container">
+         <div class="col-md-7 content-align-container">
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tenetur corrupti quaerat quis! Odit esse libero at quam aut aperiam! Magni asperiores ea molestiae quis?</p>
             <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio perspiciatis cupiditate maxime nam odit praesentium hic, ad nostrum? Aliquid, deleniti enim. Tempore maxime dolorum, eaque quia molestias fugiat reprehenderit, omnis soluta odio, a natus praesentium.</p>
 
@@ -43,6 +43,32 @@
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit consequuntur mollitia fugit, quo, ex illum
             </p>
 
+         </div>
+         <div class="col-md-4">
+            <div class="recent-post-card">
+               <h4 class="recent-title">Recent Posts</h4>
+               <ul class="list-unstyled">
+                  <li class="post-link">
+                     <div class="img">
+                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
+                     </div>
+                     <a href="" class="btn">Blog post latest publish title or short description link</a>
+                  </li>
+                  <li class="post-link">
+                     <div class="img">
+                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
+                     </div>
+                     <a href="" class="btn">Blog post latest publish title or short description link</a>
+                  </li>
+                  <li class="post-link">
+                     <div class="img">
+                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
+                     </div>
+                     <a href="" class="btn">Blog post latest publish title or short description link</a>
+                  </li>
+
+               </ul>
+            </div>
          </div>
       </div>
    </section>

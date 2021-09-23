@@ -33,7 +33,7 @@
    <!------- blogs categories ------>
    <section id="blogs-category">
       <div class="category-list">
-         <ul class="list-unstyled d-flex mx-auto justify-content-center">
+         <ul class="list-unstyled d-flex mx-auto justify-content-center mb-0">
             <li class="list-item"><a href="" class="btn item-link">category 1</a></li>
             <li class="list-item"><a href="" class="btn item-link">category 2</a></li>
             <li class="list-item"><a href="" class="btn item-link">category 3</a></li>
@@ -42,7 +42,7 @@
          </ul>
       </div>
 
-      <div class="most-popular-container ">
+      <div class="most-popular-container bg-light">
          <h2 class="title text-center">Most Popular </h2>
 
 
@@ -122,17 +122,17 @@
 
    <!------- recent post ------>
    <section id="recent-post" class="my-5">
-      <div class="container-md mx-auto">
-         <h5 class="main-title">Recent Posts</h5>
+      <div class="container-md mx-auto row">
+         <h4 class="main-title col-12">Recent Posts</h4>
 
-         <div class="recent-post-items">
-            <div class="post-item row ">
-               <div class="col-4 lt">
+         <div class="recent-post-items col-md-8">
+            <div class="post-item row">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -149,12 +149,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-4 lt">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -171,12 +171,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-4 lt">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -193,12 +193,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-4 lt">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -215,12 +215,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-4 lt">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -237,12 +237,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-4 lt">
+               <div class="col-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-4 rt">
+               <div class="col-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -259,6 +259,33 @@
                </div>
             </div>
 
+         </div>
+         <div class="instagram col-md-4">
+            <div class="social">
+               <span class="title">
+                  Follow us:
+               </span>
+               <div class="icons">
+                  <span class="fab fa-facebook-f"></span>
+                  <span class="fab fa-instagram"></span>
+                  <span class="fab fa-youtube"></span>
+               </div>
+            </div>
+            <div class="instagram-box">
+               <div class="embedsocial-hashtag" data-ref="f66d7df2eb1032035fca09129825152a279f37cd"><a class="feed-powered-by-es" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Powered by EmbedSocial">Powered by EmbedSocial<span>→</span></a></div>
+               <script>
+                  (function(d, s, id) {
+                     var js;
+                     if (d.getElementById(id)) {
+                        return;
+                     }
+                     js = d.createElement(s);
+                     js.id = id;
+                     js.src = "https://embedsocial.com/cdn/ht.js";
+                     d.getElementsByTagName("head")[0].appendChild(js);
+                  }(document, "script", "EmbedSocialHashtagScript"));
+               </script>
+            </div>
          </div>
       </div>
    </section>

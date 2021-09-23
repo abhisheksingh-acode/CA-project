@@ -16,7 +16,7 @@
             <form class="d-flex w-100 mb-3" action="" method="get" id="search">
                <input class="form-control me-2 " type="text" placeholder="Search" name="search" aria-label="Search">
             </form>
-            <h5 class="p-2">Our Categories:</h5>
+            <h5 class="p-2 fw-bold">Our Categories:</h5>
 
             <div class="row mx-auto p-0 category-grid gy-3">
                <div class="col-6 col-md-4 grid-item"><a href="">Private Limited Company Registration </a></div>

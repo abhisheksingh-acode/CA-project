@@ -49,20 +49,20 @@
                      </select>
                   </div>
                   <div class="col-12">
-                     <button class=" btn px-5 btn-danger">Register</button>
+                     <button class=" btn an-btn px-4">Register</button>
                   </div>
 
                   <!-- phone hide span  -->
-                  <div class="d-none box-container d-md-flex row mt-3 gx-3">
-                     <div class="box1 col-4">
+                  <div class="d-none box-container d-md-flex row mt-3 mx-auto">
+                     <div class="box col-5">
                         <h5 class="nos">50000+</h5>
                         <span class="caption">Happy customers</span>
                      </div>
-                     <div class="box2 col-4">
+                     <div class="box col-4">
                         <h5 class="nos">300+</h5>
                         <span class="caption">Professionals</span>
                      </div>
-                     <div class="box3 col-4">
+                     <div class="box col-3">
                         <h5 class="nos">250+</h5>
                         <span class="caption">Partners</span>
                      </div>
