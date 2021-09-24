@@ -192,7 +192,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="image/quick-support/Cost-Effective.png" alt="" class="img-fluid">
+                        <img src="image/quick-support/CostEffective.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -211,7 +211,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="image/quick-support/Expert-professional.png" alt="" class="img-fluid">
+                        <img src="image/quick-support/Expertprofessional.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -230,7 +230,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="image/quick-support/Quick-Support.png" alt="" class="img-fluid">
+                        <img src="image/quick-support/QuickSupport.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -249,7 +249,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="image/quick-support/yr-experience.png" alt="" class="img-fluid">
+                        <img src="image/quick-support/yrexperience.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
