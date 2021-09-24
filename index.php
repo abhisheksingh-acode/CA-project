@@ -93,12 +93,12 @@
    </header>
 
 
-
+   <!---------- about us  ------------>
    <section class="my-md-5 py-5" id="about-us">
       <div class="row container-md mx-auto">
          <h1 class="title text-center fw-bold d-md-none" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
 
-         <div class="col-md-5 col-12 d-flex align-items-center order-2 order-md-1 lt">
+         <div class="col-md-5 col-12 d-flex align-items-center order-3 order-md-1 lt">
             <div class="inner-div ">
                <h1 class="title fw-bold d-none d-md-block" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
 
@@ -109,8 +109,8 @@
                </div>
             </div>
          </div>
-         <div class="col-md-1"></div>
-         <div class="col-md-6 col-12 order-1 order-md-2 d-flex justify-content-center rt align-items-center">
+         <div class="col-md-1 order-2"></div>
+         <div class="col-md-6 col-12 order-1 order-md-3 d-flex justify-content-center rt align-items-center">
             <div class="img-container mx-auto text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
                <img src="./image/about-us.svg" alt="" class="img-fluid">
             </div>
