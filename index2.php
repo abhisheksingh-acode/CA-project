@@ -76,16 +76,16 @@
    </section>
 
    <!---------- how to start  ---------->
-   <section class="my-5">
+   <section class="mt-5">
       <h2 class="text-center main-title">How to Start a Private Limited Company Registration</h2>
-      <div class="main-img-container w-50 mx-auto p-3">
+      <div class="main-img-container w-75 mx-auto p-3">
          <img src="image/process.png" alt="" class="img-fluid">
       </div>
    </section>
 
    <!---------- main content  ---------->
 
-   <section class="my-5 bg-light py-5">
+   <section class="mb-5 bg-light py-5">
 
       <div class="row mx-auto scrollspy-custom">
          <!-- side active tab indicator (phone hide)-->

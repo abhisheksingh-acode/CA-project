@@ -28,8 +28,6 @@
                <div class="col-6 col-md-4 grid-item"><a href="">Trademark Registration </a></div>
                <div class="col-6 col-md-4 grid-item"><a href="">Trademark Assignment </a></div>
                <div class="col-6 col-md-4 grid-item"><a href="">PSARA License </a></div>
-               <div class="col-6 col-md-4 grid-item"><a href="">RERA Registration </a></div>
-               <div class="col-6 col-md-4 grid-item"><a href="">RERA Registration For Promoters </a></div>
             </div>
          </div>
          <div class="col-12 col-md-6 mx-auto icons-grid row">
@@ -96,11 +94,13 @@
 
 
 
-   <section class="my-5 py-5" id="about-us">
+   <section class="my-md-5 py-5" id="about-us">
       <div class="row container-md mx-auto">
-         <div class="col-md-5 d-flex align-items-center lt">
+         <h1 class="title text-center fw-bold d-md-none" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
+
+         <div class="col-md-5 col-12 d-flex align-items-center order-2 order-md-1 lt">
             <div class="inner-div ">
-               <h1 class="title fw-bold" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
+               <h1 class="title fw-bold d-none d-md-block" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
 
                <p class="para my-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi eum voluptatum dolorum! Accusantium, consequatur et. Accusantium, consequatur et.</p>
@@ -110,8 +110,8 @@
             </div>
          </div>
          <div class="col-md-1"></div>
-         <div class="col-md-6 d-flex justify-content-center rt align-items-center">
-            <div class="img-container mx-auto text-center">
+         <div class="col-md-6 col-12 order-1 order-md-2 d-flex justify-content-center rt align-items-center">
+            <div class="img-container mx-auto text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
                <img src="./image/about-us.svg" alt="" class="img-fluid">
             </div>
             <div class="float float1">
@@ -148,14 +148,7 @@
    </section>
 
 
-
-
-
-
-
-
-
-
+   <!---------- why choose  ------------>
    <section class="my-5 position-relative" id="why-choose">
       <!-- sidebar caption  -->
       <!-- <h3 class="side-caption">Why Choose Us</h3> -->
@@ -169,7 +162,7 @@
                   <div class="inner-card bg-danger">
                      <div class="main-div">
                         <div class="img-container">
-                           <img src="image/national-top-50.svg" alt="">
+                           <img src="image/CL.png" alt="">
                         </div>
                         <h6 class="title">National top 50 consulting firms</h6>
                         <p class="para">
@@ -180,7 +173,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="" alt="">
+                        <img src="image/Quick-Support/customers.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -188,7 +181,7 @@
                   <div class="inner-card bg-warning">
                      <div class="main-div">
                         <div class="img-container">
-                           <img src="image/national-top-50.svg" alt="">
+                           <img src="image/CL.png" alt="">
                         </div>
                         <h6 class="title">National top 50 consulting firms</h6>
                         <p class="para">
@@ -199,7 +192,7 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="" alt="">
+                        <img src="image/quick-support/Cost-Effective.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -207,7 +200,7 @@
                   <div class="inner-card bg-primary">
                      <div class="main-div">
                         <div class="img-container">
-                           <img src="image/national-top-50.svg" alt="">
+                           <img src="image/CL.png" alt="">
                         </div>
                         <h6 class="title">National top 50 consulting firms</h6>
                         <p class="para">
@@ -218,7 +211,45 @@
                         </p>
                      </div>
                      <div class="side-image">
-                        <img src="" alt="">
+                        <img src="image/quick-support/Expert-professional.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="inner-card bg-danger">
+                     <div class="main-div">
+                        <div class="img-container">
+                           <img src="image/CL.png" alt="">
+                        </div>
+                        <h6 class="title">National top 50 consulting firms</h6>
+                        <p class="para">
+                           Incorporating a Public Company will provide you security &
+                           enjoys far more credibility than ot...
+                           besides as
+                           the most prestigious firm of its kind.
+                        </p>
+                     </div>
+                     <div class="side-image">
+                        <img src="image/quick-support/Quick-Support.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="inner-card bg-warning">
+                     <div class="main-div">
+                        <div class="img-container">
+                           <img src="image/CL.png" alt="">
+                        </div>
+                        <h6 class="title">National top 50 consulting firms</h6>
+                        <p class="para">
+                           Incorporating a Public Company will provide you security &
+                           enjoys far more credibility than ot...
+                           besides as
+                           the most prestigious firm of its kind.
+                        </p>
+                     </div>
+                     <div class="side-image">
+                        <img src="image/quick-support/yr-experience.png" alt="" class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -654,7 +685,7 @@
       <h2 class="text-center mb-3">USP</h2>
 
       <div class="row main-row mx-auto g-3 container-md py-4">
-         <div class="col-md-4 col-6 hover-cards-container">
+         <div class="col-md-4 col-12 hover-cards-container">
             <div class="hover-card">
                <div class="bg-img-hover">
                   <img src="https://images.unsplash.com/photo-1629377856766-72c3bb4c86c6?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
@@ -666,7 +697,7 @@
                </p>
             </div>
          </div>
-         <div class="col-md-4 col-6 hover-cards-container">
+         <div class="col-md-4 col-12 hover-cards-container">
             <div class="hover-card">
                <div class="bg-img-hover">
                   <img src="https://images.unsplash.com/photo-1629704279981-435d23b31e27?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
@@ -678,7 +709,7 @@
                </p>
             </div>
          </div>
-         <div class="col-md-4 col-6 hover-cards-container">
+         <div class="col-md-4 col-12 hover-cards-container">
             <div class="hover-card">
                <div class="bg-img-hover">
                   <img src="https://images.unsplash.com/photo-1629666448297-56b25188f330?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
@@ -690,7 +721,7 @@
                </p>
             </div>
          </div>
-         <div class="col-md-4 col-6 hover-cards-container">
+         <div class="col-md-4 col-12 hover-cards-container">
             <div class="hover-card">
                <div class="bg-img-hover">
                   <img src="https://images.unsplash.com/photo-1629685744999-97cd66a39b06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
@@ -707,11 +738,11 @@
 
 
    <!-- our process  -->
-   <section class="my-5" id="our-process">
+   <section class="mb-0 my-md-5" id="our-process">
       <div class="row container-md mx-auto main-row">
          <div class="col-md-6 lt">
-            <div class="">
-               <h3 class="title">How Our Process Works</h3>
+            <div class="head" style="width: 60%;">
+               <h3 class="title">Working Process at ConsoLegal</h3>
                <p class="sub-title">Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Facere, fuga.</p>
             </div>
@@ -758,16 +789,19 @@
    </section>
 
    <!-- app download section  -->
-   <section class="my-5" id="join-app">
-      <div class="row mx-auto container-md">
-         <div class="col-6 ">
+   <section class="mt-0 my-md-5" id="join-app">
+      <div class="row mx-auto container-md main-row">
+         <h2 class="heading theme-orange col-12 text-center d-md-none">Join our MSME Community.</h2>
+
+         <div class="col-md-6 d-flex lt">
             <div class="img-container">
-               <img src="image/1.png" alt="" class="" height="500px" width="auto">
+               <img src="image/1.png" alt="">
+               <img src="image/app2.png" alt="">
             </div>
          </div>
-         <div class="col-6">
+         <div class="col-md-6 rt">
             <div class="inner-div">
-               <h2 class="heading">Join our MSME Community.</h2>
+               <h2 class="heading d-none d-md-block">Join our MSME Community.</h2>
                <p class="sub-heading">Book Services, Ask Free Questions, share knowledge with Verified Experts.</p>
                <span class="sub-heading">Download Our App</span>
 
@@ -806,10 +840,9 @@
          </form>
       </div>
 
-
       <div class="row main-row container">
          <!-- faqs topic -->
-         <div class="col-3 topic">
+         <div class="col-md-3 topic">
             <h4 class="title">FAQ TOPICS</h4>
             <hr>
             <ul class="list-unstyled">
@@ -839,9 +872,9 @@
                </li>
             </ul>
          </div>
-         <div class="col-1"></div>
+         <div class="col-md-1"></div>
          <!-- faqs rel topics -->
-         <div class="col-8 topic-content">
+         <div class="col-md-8 topic-content">
             <!-- first  -->
             <div class="active-container active">
                <div class="content-item">

@@ -108,9 +108,16 @@ let swiperWhyChoose = new Swiper(".swiper-container-why-choose", {
     el: ".swiper-pagination",
     dynamicBullets: true,
   },
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
+  // autoplay: {
+  //   delay: 2000,
+  //   disableOnInteraction: false,
+  // },
+  breakpoints: {
+    centeredSlides: true,
+    spaceBetween: 30,
+    speed: 2500,
+    grabCursor: true,
+    slidesPerView: 1,
   },
 });
 

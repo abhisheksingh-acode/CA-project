@@ -10,7 +10,7 @@
 
    <section id="thankyou">
       <div class="main-div mx-auto row">
-         <div class="col-8">
+         <div class="col-md-8">
             <span class="icon"><i class="fas fa-check"></i></span>
             <h2 class="strong">Congratulations !</h2>
             <h2 class="strong">Enquiry Received. Our Representative Will Contact

@@ -7,24 +7,50 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-start align-items-md-center">
             <ul class="navbar-nav d-md-none">
-               <li class="nav-item dropdown">
+               <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Startup
+                     Incorporation
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <li><a class="dropdown-item" href="#">Private Limited Company </a></li>
+                     <li><a class="dropdown-item" href="#">Public Limited Company </a></li>
+                     <li><a class="dropdown-item" href="#">One Person Company Registration </a></li>
+                     <li><a class="dropdown-item" href="#">Limited Liability Partnership (LLP)</a></li>
+                     <li><a class="dropdown-item" href="#">Partnership Registration</a></li>
+                     <li><a class="dropdown-item" href="#">Proprietorship Registration</a></li>
+                     <li><a class="dropdown-item" href="#">Nidhi Company Registration </a></li>
+                     <li><a class="dropdown-item" href="#">NBFC Company Registration</a></li>
+                     <li><a class="dropdown-item" href="#">Society/Trust Registration</a></li>
                   </ul>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Business
+                     Registration
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <li><a class="dropdown-item" href="#">MSME/SSI Registration</a></li>
+                     <li><a class="dropdown-item" href="#">FSSAI Registration</a></li>
+                     <li><a class="dropdown-item" href="#">Shop & Establishment Registration</a></li>
+                     <li><a class="dropdown-item" href="#">EPF Registration</a></li>
+                     <li><a class="dropdown-item" href="#">ESI Registration</a></li>
+                     <li><a class="dropdown-item" href="#">Import Export Code Registration </a></li>
+                     <li><a class="dropdown-item" href="#">ISO Registration</a></li>
+                     <li><a class="dropdown-item" href="#">PSARA License </a></li>
+                     <li><a class="dropdown-item" href="#">Drug License</a></li>
+                     <li><a class="dropdown-item" href="#">Trade License </a></li>
+                     <li><a class="dropdown-item" href="#">Trademark Registration</a></li>
+                     <li><a class="dropdown-item" href="#">IATA Registration </a></li>
+                  </ul>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Tax/GST
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="#">Income Tax Return</a></li>
+                     <li><a class="dropdown-item" href="#">GST Registration</a></li>
+                     <li><a class="dropdown-item" href="#">GST Return</a></li>
+                     <li><a class="dropdown-item" href="#">TDS Return</a></li>
                   </ul>
                </li>
                <li class="nav-item dropdown">
@@ -32,30 +58,51 @@
                      Compliance
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <li><a class="dropdown-item" href="#">Company Annual Filing</a></li>
+                     <li><a class="dropdown-item" href="#">LLP Annual Filing</a></li>
+                     <li><a class="dropdown-item" href="#">Nidhi Company Compliance</a></li>
+                     <li><a class="dropdown-item" href="#">NBFC Compliance</a></li>
+                     <li><a class="dropdown-item" href="#">Strike off Company</a></li>
+                     <li><a class="dropdown-item" href="#">Closure of LLP</a></li>
                   </ul>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Agreement
+                     Others
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <li><a class="dropdown-item" href="#">Payroll Management</a></li>
+                     <li><a class="dropdown-item" href="#">Accounting/Book Keeping</a></li>
+                     <li><a class="dropdown-item" href="#">Legal Drafting</a></li>
+                     <li><a class="dropdown-item" href="#">Digital Signature Certificate (DSC)</a></li>
+                     <li><a class="dropdown-item" href="#">PAN/TAN</a></li>
+                     <li><a class="dropdown-item" href="#">Business Software’s</a></li>
                   </ul>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Company
+                     Insurance
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#">Action</a></li>
-                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     <li><a class="dropdown-item" href="#">Life Insurance</a></li>
+                     <li><a class="dropdown-item" href="#">Health Insurance</a></li>
+                     <li><a class="dropdown-item" href="#">Motor Insurance</a></li>
+                     <li><a class="dropdown-item" href="#">Travel Insurance</a></li>
                   </ul>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Loan
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="personal-loan.php">Personal Loan</a></li>
+                     <li><a class="dropdown-item" href="businessloan.php">Business Loan</a></li>
+                     <li><a class="dropdown-item" href="homeloan.php">Home Loan</a></li>
+                     <li><a class="dropdown-item" href="carloan.php">Car Loan</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a href="blogs.php" class="nav-link">Blogs</a>
                </li>
             </ul>
             <ul class="navbar-nav ">
@@ -165,10 +212,10 @@
                Loan
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <li><a class="dropdown-item" href="#">Personal Loan</a></li>
-               <li><a class="dropdown-item" href="#">Business Loan</a></li>
-               <li><a class="dropdown-item" href="#">Home Loan</a></li>
-               <li><a class="dropdown-item" href="#">Car Loan</a></li>
+               <li><a class="dropdown-item" href="personal-loan.php">Personal Loan</a></li>
+               <li><a class="dropdown-item" href="businessloan.php">Business Loan</a></li>
+               <li><a class="dropdown-item" href="homeloan.php">Home Loan</a></li>
+               <li><a class="dropdown-item" href="carloan.php">Car Loan</a></li>
             </ul>
          </li>
          <li class="nav-item">

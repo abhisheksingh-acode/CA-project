@@ -33,7 +33,7 @@
    <!------- blogs categories ------>
    <section id="blogs-category">
       <div class="category-list">
-         <ul class="list-unstyled d-flex mx-auto justify-content-center mb-0">
+         <ul class="list-unstyled d-flex mx-auto justify-content-md-center justify-content-start mb-0">
             <li class="list-item"><a href="" class="btn item-link">category 1</a></li>
             <li class="list-item"><a href="" class="btn item-link">category 2</a></li>
             <li class="list-item"><a href="" class="btn item-link">category 3</a></li>
@@ -122,17 +122,17 @@
 
    <!------- recent post ------>
    <section id="recent-post" class="my-5">
-      <div class="container-md mx-auto row">
+      <div class="container-md mx-auto row padding-sm-0">
          <h4 class="main-title col-12">Recent Posts</h4>
 
          <div class="recent-post-items col-md-8">
             <div class="post-item row">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -149,12 +149,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -171,12 +171,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -193,12 +193,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -215,12 +215,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
@@ -237,12 +237,12 @@
                </div>
             </div>
             <div class="post-item row ">
-               <div class="col-6 lt">
+               <div class="col-md-6 lt">
                   <div class="img">
                      <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
                   </div>
                </div>
-               <div class="col-6 rt">
+               <div class="col-md-6 rt">
                   <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
