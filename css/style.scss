@@ -2368,6 +2368,7 @@ h3.title {
     @include flex-column();
     .btn-toggle {
       width: 80%;
+      box-shadow: 0px -11px 151px #00000030;
       .btn {
         font-size: 20px;
         font-weight: bold;
@@ -2383,8 +2384,9 @@ h3.title {
     }
     form {
       width: 80%;
-      padding: 20px 0;
-
+      padding: 20px 10px;
+      background: #fff;
+      box-shadow: 0px 34px 38px #00000036;
       .form-control {
         border-color: transparent;
         border-bottom-color: #000;
