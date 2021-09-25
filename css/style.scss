@@ -225,13 +225,11 @@ h2 {
   width: fit-content;
   transform: rotate(90deg);
   z-index: 3;
-  mix-blend-mode: difference;
   a {
     text-decoration: none;
     color: $theme-blue;
     margin: 0 5px;
     font-weight: 400;
-    // mix-blend-mode: difference;
   }
   a:hover {
     text-decoration: underline;
@@ -1410,7 +1408,7 @@ header::after {
 /*--------------- about us -------------------*/
 #about-us-home {
   min-height: calc(100vh - 150px);
-  background: url("../image/Group\ 2.svg") no-repeat center center;
+  background: url("../image/Group\ 2.svg") repeat center center;
   background-size: contain;
   box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.13);
   .lt {
@@ -1519,13 +1517,9 @@ header::after {
 /*--------------- index2 -------------------*/
 #header1 {
   padding: 30px 0;
-  // background-image: linear-gradient(
-  //   90deg,
-  //   $theme-blue 40%,
-  //   rgba(255, 255, 255, 0.89)
-  // );
-  // background-color: $theme-white;
-  background: #fbfbfb url("../image/Group\ 5.svg") no-repeat center center;
+  background: rgba(224, 235, 248, 0.226) url("../image/home-svg.svg") no-repeat
+    center top;
+  // background: #fbfbfb url("../image/Group\ 5.svg") no-repeat center center;
   background-size: cover;
 
   .main-row {
@@ -1586,6 +1580,7 @@ header::after {
         width: fit-content;
         padding: 30px;
         box-shadow: 0px 2px 10px rgba(99, 99, 99, 0.425);
+        background-color: #fff;
         border-radius: 15px;
         // border: 1px solid rgba(255, 255, 255, 0.644);
         .title {
@@ -1634,12 +1629,12 @@ header::after {
     position: relative;
     .bar-list {
       position: sticky;
-      top: 140px;
+      top: 120px;
       list-style: none;
       margin: 0;
       padding: 0;
       li {
-        padding: 15px 20px;
+        padding: 13px 20px;
         border-left: 6px solid transparent;
         border-radius: 10px;
         margin: 15px 0;
@@ -1652,6 +1647,13 @@ header::after {
           text-decoration: none;
           color: #000;
           font-weight: bold;
+          @include flex-row-start();
+
+          .icon {
+            width: 20px;
+            margin-right: 10px;
+            @include flex-row-center();
+          }
         }
       }
       li:hover .bar-item {
@@ -1850,15 +1852,6 @@ header::after {
           .read-more {
             text-align: center;
             padding-bottom: 15px;
-            // .btn {
-            //   border: 1px solid $theme-orange;
-            //   border-radius: 20px;
-            //   transition: all 0.2s linear;
-            // }
-            // .btn:hover {
-            //   color: #fff;
-            //   background: $theme-orange;
-            // }
           }
         }
       }
@@ -2038,46 +2031,35 @@ header::after {
   }
 
   .recent-post-card {
-    box-shadow: 1px 2px 10px -3px rgba(0, 0, 0, 0.384);
-    // border: 1px solid rgba(0, 0, 0, 0.205);
-    border-radius: 8px;
+    // box-shadow: 1px 2px 10px -3px rgba(0, 0, 0, 0.384);
+    border-left: 1px solid rgba(0, 0, 0, 0.205);
+    // border-radius: 8px;
     .recent-title {
       font-weight: bold;
       color: $theme-blue;
-      font-size: 18px;
-      padding: 3px 0;
-      text-align: center;
-      // background: #dbdbdb;
-      background: $theme-blue-light;
+      font-size: 20px;
+      padding: 3px 23px;
+      text-align: left;
     }
-    ul {
-      padding: 15px;
-      .post-link {
-        padding: 6px 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.082);
-        margin-bottom: 14px;
-        .img {
-          height: auto;
-          width: auto;
-          max-width: 80px;
-          margin-right: 10px;
-        }
-        .btn {
-          font-family: "poppins-med";
-          font-size: 15px;
-          font-weight: $theme-blue;
-          text-align: left;
-          padding: 0;
-        }
+    .card {
+      margin-bottom: 20px;
+      box-shadow: 2px 0px 10px rgba(82, 82, 82, 0.199);
+      transition: all 0.2s ease;
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #000;
+        font-size: 15px;
+        transition: all 0.2s ease;
       }
-      .post-link:hover {
-        cursor: pointer;
-        .btn {
-          color: $theme-orange;
-        }
+    }
+    .card:hover {
+      // transform: scale(1, 1.1);
+      box-shadow: 2px 0px 10px rgba(70, 70, 70, 0.199);
+
+      a {
+        color: $theme-orange;
+        text-decoration: underline;
       }
     }
   }
@@ -2087,7 +2069,8 @@ header::after {
 
 #contact-us {
   padding: 60px 0;
-  // background-image: linear-gradient(90deg, $theme-blue-light 20%, $theme-white);
+  background: url("../image/Group\ 6.svg") no-repeat center top;
+  background-size: cover;
 
   .main-title {
     font-weight: bold;
@@ -2225,26 +2208,203 @@ header::after {
 /*--------------- home loan -------------------*/
 
 .home-loan {
-  background-image: url("../image/homeloan.png"), url("../image/homeloan.png");
+  background-image: url("../image/homeloan.jpg");
 }
+
+/*--------------- business loan page -------------------*/
 .business-loan {
-  background-image: url("../image/businessloan.png"),
-    url("../image/businessloan.png");
+  background-image: url("../image/businessloan.jpg");
 }
+
+/*--------------- personal loan page -------------------*/
+
 .personal-loan {
-  background-image: url("../image/personal-loan.png"),
-    url("../image/personal-loan.png");
+  background-image: url("../image/personal-loan.jpg");
 }
+
+.personal-loan,
+.home-loan,
+.business-loan,
 .car-loan {
-  background-image: url("../image/carloan.png"), url("../image/carloan.png");
+  padding: 10px 40px;
+  @include flex-column-start();
+  .main-title {
+    display: none;
+    font-weight: bold;
+    padding: 0 20px;
+    margin-left: 20px;
+    color: $theme-orange;
+    background: $theme-blue;
+  }
+  .estimation-div {
+    display: none;
+    min-width: 500px;
+    min-height: 250px;
+    padding: 20px;
+    background: $theme-white;
+    border-radius: 8px;
+    font-weight: bold;
+
+    .amount-selector {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .start,
+      .end {
+        flex: 1;
+        text-align: center;
+      }
+      .range {
+        flex: 2;
+      }
+    }
+    .table {
+      td {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.tabs-page-scroll {
+  .tabs-container {
+    margin: auto;
+    background: $theme-orange;
+    overflow-x: scroll;
+    ul {
+      margin: 0;
+      @include flex-row-center();
+      flex-wrap: nowrap;
+      li {
+        padding: 20px 20px;
+        color: $theme-white;
+        font-weight: bold;
+        border-bottom: 3px solid $theme-orange;
+      }
+      li.active {
+        border-bottom: 3px solid $theme-blue;
+      }
+    }
+  }
+  .tabs-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+.personal-loan-about {
+  padding: 30px 0;
+  .para {
+    margin: 0 auto 10px;
+    text-align: left;
+    font-size: 17px;
+    width: 85%;
+  }
+}
+.benefits-loan {
+  padding: 40px 0;
+  background: #fbfbfb;
+  font-weight: bold;
+
+  .para {
+    text-align: left;
+  }
+  .ul {
+    list-style: disc;
+    li {
+      margin-bottom: 12px;
+    }
+    li::marker {
+      color: $theme-orange;
+    }
+  }
+}
+
+h3.title {
+  font-weight: bold;
+}
+
+/*--------------- car loan page -------------------*/
+.car-loan {
+  background-image: url("../image/carloan.jpg");
+}
+
+/*--------------- Insurance pages -------------------*/
+
+.life-insurance,
+.motor-insurance,
+.health-insurance,
+.travel-insurance {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#life-insurance {
+  background-image: url("../image/lifeinsurance.png");
+}
+#motor-insurance {
+  background-image: url("../image/motorinsurance.jpg");
+}
+#health-insurance {
+  background-image: url("../image/healthinsurance.png");
+}
+#travel-insurance {
+  background-image: url("../image/travelInsurance.jpg");
 }
 
 .header-height {
-  min-height: calc(90vh - 100px);
+  min-height: 400px;
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, 400%;
-  background-position: center 0;
+  background-size: cover;
+  background-position: center center;
 }
+
+/*--------------- login signup -------------------*/
+
+.signup-login {
+  background: url("../image/login.jpg") no-repeat center center;
+  background-size: cover;
+  .lt {
+    @include flex-column();
+    .btn-toggle {
+      width: 80%;
+      .btn {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .btn:hover {
+        opacity: 0.7;
+      }
+      .active {
+        // border-bottom: 2px solid $theme-orange;
+        color: $theme-orange;
+      }
+    }
+    form {
+      width: 80%;
+      padding: 20px 0;
+
+      .form-control {
+        border-color: transparent;
+        border-bottom-color: #000;
+        border-radius: 0;
+      }
+      .form-control:focus {
+        box-shadow: none;
+        border-bottom-color: $theme-orange;
+      }
+    }
+  }
+  .rt {
+    @include flex-row();
+    .img-container {
+      max-width: 60%;
+      max-height: 300px;
+    }
+  }
+}
+
 /*--------------- footer -------------------*/
 
 #footer {

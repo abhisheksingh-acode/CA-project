@@ -66,7 +66,7 @@
                         </ol>
 
                      </div>
-                     <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
+                     <div class="read-more"><a href="blogread.php" class="btn an-btn">Read More</a></div>
                   </div>
                </div>
                <div class="swiper-slide">
@@ -87,7 +87,7 @@
                         </ol>
 
                      </div>
-                     <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
+                     <div class="read-more"><a href="blogread.php" class="btn an-btn">Read More</a></div>
                   </div>
                </div>
                <div class="swiper-slide">
@@ -108,7 +108,7 @@
                         </ol>
 
                      </div>
-                     <div class="read-more"><a href="" class="btn an-btn">Read More</a></div>
+                     <div class="read-more"><a href="blogread.php" class="btn an-btn">Read More</a></div>
                   </div>
                </div>
             </div>
@@ -155,7 +155,7 @@
                   </div>
                </div>
                <div class="col-md-6 rt">
-                  <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
+                  <h5 class="post-title"><a class="" href="blogread.php">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
                         <img src="image/profile.png" alt="" class="img-fluid">
@@ -177,7 +177,7 @@
                   </div>
                </div>
                <div class="col-md-6 rt">
-                  <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
+                  <h5 class="post-title"><a class="" href="blogread.php">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
                         <img src="image/profile.png" alt="" class="img-fluid">
@@ -199,7 +199,7 @@
                   </div>
                </div>
                <div class="col-md-6 rt">
-                  <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
+                  <h5 class="post-title"><a class="" href="blogread.php">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
                         <img src="image/profile.png" alt="" class="img-fluid">
@@ -221,7 +221,7 @@
                   </div>
                </div>
                <div class="col-md-6 rt">
-                  <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
+                  <h5 class="post-title"><a class="" href="blogread.php">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
                         <img src="image/profile.png" alt="" class="img-fluid">
@@ -243,7 +243,7 @@
                   </div>
                </div>
                <div class="col-md-6 rt">
-                  <h5 class="post-title"><a class="">Blog post short description or title link wrapped click to visit</a></h5>
+                  <h5 class="post-title"><a class="" href="blogread.php">Blog post short description or title link wrapped click to visit</a></h5>
                   <div class="author">
                      <div class="pic">
                         <img src="image/profile.png" alt="" class="img-fluid">

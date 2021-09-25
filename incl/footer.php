@@ -106,3 +106,6 @@
 <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
 <!----------- custom  ------------>
 <script src="js/index.js"></script>
+<script>
+   AOS.init();
+</script>

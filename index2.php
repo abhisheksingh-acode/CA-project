@@ -91,14 +91,21 @@
          <!-- side active tab indicator (phone hide)-->
          <div class="col-md-3 d-none d-md-block lt bar-container">
             <ul class="bar-list">
-               <li class="active-li"><a href="" class="bar-item ">Overview</a></li>
-               <li><a href="" class="bar-item">Benefits</a></li>
-               <li><a href="" class="bar-item">Requirements</a></li>
-               <li><a href="" class="bar-item">Listicles</a></li>
-               <li><a href="" class="bar-item">Registration Procedure</a></li>
-               <li><a href="" class="bar-item">Other Information</a></li>
-               <li><a href="" class="bar-item">Comparison Guide</a></li>
-               <li><a href="" class="bar-item">Faqs</a></li>
+               <li class="active-li">
+                  <a href="" class="bar-item ">
+                     <span class="icon"><i class="fas fa-chart-bar"></i></span>Overview
+                  </a>
+               </li>
+               <li>
+                  <a href="" class="bar-item"><span class="icon"><i class="fas fa-wallet"></i></span>Benefits
+                  </a>
+               </li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-seedling"></i></span>Requirements</a></li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-list-ul"></i></span>Listicles</a></li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="fab fa-wpforms"></i></span>Registration Procedure</a></li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-info"></i></span>Other Information</a></li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="far fa-folder-open"></i></span>Comparison Guide</a></li>
+               <li><a href="" class="bar-item"><span class="icon"><i class="far fa-question-circle"></i></span>Faqs</a></li>
             </ul>
          </div>
          <!-- main scroll container  -->

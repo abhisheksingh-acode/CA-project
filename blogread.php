@@ -46,29 +46,30 @@
          </div>
          <div class="col-md-4">
             <div class="recent-post-card">
-               <h4 class="recent-title">Recent Posts</h4>
-               <ul class="list-unstyled">
-                  <li class="post-link">
-                     <div class="img">
-                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
-                     </div>
-                     <a href="" class="btn">Blog post latest publish title or short description link</a>
-                  </li>
-                  <li class="post-link">
-                     <div class="img">
-                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
-                     </div>
-                     <a href="" class="btn">Blog post latest publish title or short description link</a>
-                  </li>
-                  <li class="post-link">
-                     <div class="img">
-                        <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" alt="" class="img-fluid">
-                     </div>
-                     <a href="" class="btn">Blog post latest publish title or short description link</a>
-                  </li>
-
-               </ul>
+               <!-- <h4 class="recent-title">Recent Posts</h4> -->
+               <div class="card mx-auto" style="width: 18rem;">
+                  <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <a class="nav-item card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                  </div>
+               </div>
+               <div class="card mx-auto" style="width: 18rem;">
+                  <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <a class="nav-item card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                  </div>
+               </div>
+               <div class="card mx-auto" style="width: 18rem;">
+                  <img src="image/How-to-invest-in-Stock-Market-for-beginners-in-India_16.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <a class="nav-item card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+                  </div>
+               </div>
             </div>
+
          </div>
       </div>
    </section>

@@ -113,7 +113,7 @@
                   <a class="nav-link" href="#"> <i class="fas theme-blue fa-phone-alt"></i> 9854859385</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " id="login-btn" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                  <a class="nav-link " id="login-btn" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                </li>
             </ul>
 
@@ -185,12 +185,12 @@
          </li>
          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Others
+               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <li><a class="dropdown-item" href="#">Payroll Management</a></li>
-               <li><a class="dropdown-item" href="#">Accounting/Book Keeping</a></li>
-               <li><a class="dropdown-item" href="#">Legal Drafting</a></li>
+               <li><a class="dropdown-item" href="about.php">About Us</a></li>
+               <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+               <li><a class="dropdown-item" href="index2.php">Services</a></li>
                <li><a class="dropdown-item" href="#">Digital Signature Certificate (DSC)</a></li>
                <li><a class="dropdown-item" href="#">PAN/TAN</a></li>
                <li><a class="dropdown-item" href="#">Business Software’s</a></li>
@@ -201,10 +201,10 @@
                Insurance
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <li><a class="dropdown-item" href="#">Life Insurance</a></li>
-               <li><a class="dropdown-item" href="#">Health Insurance</a></li>
-               <li><a class="dropdown-item" href="#">Motor Insurance</a></li>
-               <li><a class="dropdown-item" href="#">Travel Insurance</a></li>
+               <li><a class="dropdown-item" href="lifeInsurance.php">Life Insurance</a></li>
+               <li><a class="dropdown-item" href="healthInsurance.php">Health Insurance</a></li>
+               <li><a class="dropdown-item" href="travelInsurance.php">Travel Insurance</a></li>
+               <li><a class="dropdown-item" href="motorInsurance.php">Motor Insurance</a></li>
             </ul>
          </li>
          <li class="nav-item dropdown">

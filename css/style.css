@@ -193,7 +193,6 @@ h2 {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   z-index: 3;
-  mix-blend-mode: difference;
 }
 
 .side-social-bar a {
@@ -1777,7 +1776,7 @@ header::after {
 /*--------------- about us -------------------*/
 #about-us-home {
   min-height: calc(100vh - 150px);
-  background: url("../image/Group 2.svg") no-repeat center center;
+  background: url("../image/Group 2.svg") repeat center center;
   background-size: contain;
   -webkit-box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.13);
           box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.13);
@@ -1925,7 +1924,7 @@ header::after {
 /*--------------- index2 -------------------*/
 #header1 {
   padding: 30px 0;
-  background: #fbfbfb url("../image/Group 5.svg") no-repeat center center;
+  background: rgba(224, 235, 248, 0.226) url("../image/home-svg.svg") no-repeat center top;
   background-size: cover;
 }
 
@@ -2007,6 +2006,7 @@ header::after {
   padding: 30px;
   -webkit-box-shadow: 0px 2px 10px rgba(99, 99, 99, 0.425);
           box-shadow: 0px 2px 10px rgba(99, 99, 99, 0.425);
+  background-color: #fff;
   border-radius: 15px;
 }
 
@@ -2054,14 +2054,14 @@ header::after {
 .scrollspy-custom .bar-container .bar-list {
   position: -webkit-sticky;
   position: sticky;
-  top: 140px;
+  top: 120px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .scrollspy-custom .bar-container .bar-list li {
-  padding: 15px 20px;
+  padding: 13px 20px;
   border-left: 6px solid transparent;
   border-radius: 10px;
   margin: 15px 0;
@@ -2077,6 +2077,37 @@ header::after {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.scrollspy-custom .bar-container .bar-list li .bar-item .icon {
+  width: 20px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .scrollspy-custom .bar-container .bar-list li:hover .bar-item {
@@ -2556,65 +2587,49 @@ header::after {
 }
 
 #blog-read-home .recent-post-card {
-  -webkit-box-shadow: 1px 2px 10px -3px rgba(0, 0, 0, 0.384);
-          box-shadow: 1px 2px 10px -3px rgba(0, 0, 0, 0.384);
-  border-radius: 8px;
+  border-left: 1px solid rgba(0, 0, 0, 0.205);
 }
 
 #blog-read-home .recent-post-card .recent-title {
   font-weight: bold;
   color: #15426d;
-  font-size: 18px;
-  padding: 3px 0;
-  text-align: center;
-  background: #c2dbec;
-}
-
-#blog-read-home .recent-post-card ul {
-  padding: 15px;
-}
-
-#blog-read-home .recent-post-card ul .post-link {
-  padding: 6px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
-  margin-bottom: 14px;
-}
-
-#blog-read-home .recent-post-card ul .post-link .img {
-  height: auto;
-  width: auto;
-  max-width: 80px;
-  margin-right: 10px;
-}
-
-#blog-read-home .recent-post-card ul .post-link .btn {
-  font-family: "poppins-med";
-  font-size: 15px;
-  font-weight: #15426d;
+  font-size: 20px;
+  padding: 3px 23px;
   text-align: left;
-  padding: 0;
 }
 
-#blog-read-home .recent-post-card ul .post-link:hover {
-  cursor: pointer;
+#blog-read-home .recent-post-card .card {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 2px 0px 10px rgba(82, 82, 82, 0.199);
+          box-shadow: 2px 0px 10px rgba(82, 82, 82, 0.199);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-#blog-read-home .recent-post-card ul .post-link:hover .btn {
+#blog-read-home .recent-post-card .card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#blog-read-home .recent-post-card .card:hover {
+  -webkit-box-shadow: 2px 0px 10px rgba(70, 70, 70, 0.199);
+          box-shadow: 2px 0px 10px rgba(70, 70, 70, 0.199);
+}
+
+#blog-read-home .recent-post-card .card:hover a {
   color: #efa434;
+  text-decoration: underline;
 }
 
 /*--------------- contact us -------------------*/
 #contact-us {
   padding: 60px 0;
+  background: url("../image/Group 6.svg") no-repeat center top;
+  background-size: cover;
 }
 
 #contact-us .main-title {
@@ -2811,26 +2826,300 @@ header::after {
 
 /*--------------- home loan -------------------*/
 .home-loan {
-  background-image: url("../image/homeloan.png"), url("../image/homeloan.png");
+  background-image: url("../image/homeloan.jpg");
 }
 
+/*--------------- business loan page -------------------*/
 .business-loan {
-  background-image: url("../image/businessloan.png"), url("../image/businessloan.png");
+  background-image: url("../image/businessloan.jpg");
 }
 
+/*--------------- personal loan page -------------------*/
 .personal-loan {
-  background-image: url("../image/personal-loan.png"), url("../image/personal-loan.png");
+  background-image: url("../image/personal-loan.jpg");
 }
 
+.personal-loan,
+.home-loan,
+.business-loan,
 .car-loan {
-  background-image: url("../image/carloan.png"), url("../image/carloan.png");
+  padding: 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.personal-loan .main-title,
+.home-loan .main-title,
+.business-loan .main-title,
+.car-loan .main-title {
+  display: none;
+  font-weight: bold;
+  padding: 0 20px;
+  margin-left: 20px;
+  color: #efa434;
+  background: #15426d;
+}
+
+.personal-loan .estimation-div,
+.home-loan .estimation-div,
+.business-loan .estimation-div,
+.car-loan .estimation-div {
+  display: none;
+  min-width: 500px;
+  min-height: 250px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.personal-loan .estimation-div .amount-selector,
+.home-loan .estimation-div .amount-selector,
+.business-loan .estimation-div .amount-selector,
+.car-loan .estimation-div .amount-selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personal-loan .estimation-div .amount-selector .start,
+.personal-loan .estimation-div .amount-selector .end,
+.home-loan .estimation-div .amount-selector .start,
+.home-loan .estimation-div .amount-selector .end,
+.business-loan .estimation-div .amount-selector .start,
+.business-loan .estimation-div .amount-selector .end,
+.car-loan .estimation-div .amount-selector .start,
+.car-loan .estimation-div .amount-selector .end {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.personal-loan .estimation-div .amount-selector .range,
+.home-loan .estimation-div .amount-selector .range,
+.business-loan .estimation-div .amount-selector .range,
+.car-loan .estimation-div .amount-selector .range {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.personal-loan .estimation-div .table td,
+.home-loan .estimation-div .table td,
+.business-loan .estimation-div .table td,
+.car-loan .estimation-div .table td {
+  font-size: 14px;
+  text-align: center;
+}
+
+.tabs-page-scroll .tabs-container {
+  margin: auto;
+  background: #efa434;
+  overflow-x: scroll;
+}
+
+.tabs-page-scroll .tabs-container ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.tabs-page-scroll .tabs-container ul li {
+  padding: 20px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #efa434;
+}
+
+.tabs-page-scroll .tabs-container ul li.active {
+  border-bottom: 3px solid #15426d;
+}
+
+.tabs-page-scroll .tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.personal-loan-about {
+  padding: 30px 0;
+}
+
+.personal-loan-about .para {
+  margin: 0 auto 10px;
+  text-align: left;
+  font-size: 17px;
+  width: 85%;
+}
+
+.benefits-loan {
+  padding: 40px 0;
+  background: #fbfbfb;
+  font-weight: bold;
+}
+
+.benefits-loan .para {
+  text-align: left;
+}
+
+.benefits-loan .ul {
+  list-style: disc;
+}
+
+.benefits-loan .ul li {
+  margin-bottom: 12px;
+}
+
+.benefits-loan .ul li::marker {
+  color: #efa434;
+}
+
+h3.title {
+  font-weight: bold;
+}
+
+/*--------------- car loan page -------------------*/
+.car-loan {
+  background-image: url("../image/carloan.jpg");
+}
+
+/*--------------- Insurance pages -------------------*/
+.life-insurance,
+.motor-insurance,
+.health-insurance,
+.travel-insurance {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#life-insurance {
+  background-image: url("../image/lifeinsurance.png");
+}
+
+#motor-insurance {
+  background-image: url("../image/motorinsurance.jpg");
+}
+
+#health-insurance {
+  background-image: url("../image/healthinsurance.png");
+}
+
+#travel-insurance {
+  background-image: url("../image/travelInsurance.jpg");
 }
 
 .header-height {
-  min-height: calc(90vh - 100px);
+  min-height: 400px;
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, 400%;
-  background-position: center 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*--------------- login signup -------------------*/
+.signup-login {
+  background: url("../image/login.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.signup-login .lt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signup-login .lt .btn-toggle {
+  width: 80%;
+}
+
+.signup-login .lt .btn-toggle .btn {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup-login .lt .btn-toggle .btn:hover {
+  opacity: 0.7;
+}
+
+.signup-login .lt .btn-toggle .active {
+  color: #efa434;
+}
+
+.signup-login .lt form {
+  width: 80%;
+  padding: 20px 0;
+}
+
+.signup-login .lt form .form-control {
+  border-color: transparent;
+  border-bottom-color: #000;
+  border-radius: 0;
+}
+
+.signup-login .lt form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom-color: #efa434;
+}
+
+.signup-login .rt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.signup-login .rt .img-container {
+  max-width: 60%;
+  max-height: 300px;
 }
 
 /*--------------- footer -------------------*/
