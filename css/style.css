@@ -2093,7 +2093,8 @@ header::after {
 }
 
 .scrollspy-custom .bar-container .bar-list li .bar-item .icon {
-  width: 20px;
+  width: 25px;
+  height: 25px;
   margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2108,6 +2109,29 @@ header::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.scrollspy-custom .bar-container .bar-list li:nth-child(1) .icon,
+.scrollspy-custom .bar-container .bar-list li:nth-child(5) .icon {
+  background: mediumslateblue;
+}
+
+.scrollspy-custom .bar-container .bar-list li:nth-child(2) .icon,
+.scrollspy-custom .bar-container .bar-list li:nth-child(6) .icon {
+  background: orangered;
+}
+
+.scrollspy-custom .bar-container .bar-list li:nth-child(3) .icon,
+.scrollspy-custom .bar-container .bar-list li:nth-child(7) .icon {
+  background: mediumseagreen;
+}
+
+.scrollspy-custom .bar-container .bar-list li:nth-child(4) .icon,
+.scrollspy-custom .bar-container .bar-list li:nth-child(8) .icon {
+  background: cornflowerblue;
 }
 
 .scrollspy-custom .bar-container .bar-list li:hover .bar-item {

@@ -93,19 +93,19 @@
             <ul class="bar-list">
                <li class="active-li">
                   <a href="" class="bar-item ">
-                     <span class="icon"><i class="fas fa-chart-bar"></i></span>Overview
+                     <span class="icon "><i class="fas fa-chart-bar"></i></span>Overview
                   </a>
                </li>
                <li>
-                  <a href="" class="bar-item"><span class="icon"><i class="fas fa-wallet"></i></span>Benefits
+                  <a href="" class="bar-item"><span class="icon "><i class="fas fa-wallet"></i></span>Benefits
                   </a>
                </li>
-               <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-seedling"></i></span>Requirements</a></li>
-               <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-list-ul"></i></span>Listicles</a></li>
-               <li><a href="" class="bar-item"><span class="icon"><i class="fab fa-wpforms"></i></span>Registration Procedure</a></li>
+               <li><a href="" class="bar-item"><span class="icon "><i class="fas fa-seedling"></i></span>Requirements</a></li>
+               <li><a href="" class="bar-item"><span class="icon "><i class="fas fa-list-ul"></i></span>Listicles</a></li>
+               <li><a href="" class="bar-item"><span class="icon "><i class="fab fa-wpforms"></i></span>Registration Procedure</a></li>
                <li><a href="" class="bar-item"><span class="icon"><i class="fas fa-info"></i></span>Other Information</a></li>
-               <li><a href="" class="bar-item"><span class="icon"><i class="far fa-folder-open"></i></span>Comparison Guide</a></li>
-               <li><a href="" class="bar-item"><span class="icon"><i class="far fa-question-circle"></i></span>Faqs</a></li>
+               <li><a href="" class="bar-item"><span class="icon "><i class="far fa-folder-open"></i></span>Comparison Guide</a></li>
+               <li><a href="" class="bar-item"><span class="icon "><i class="far fa-question-circle"></i></span>Faqs</a></li>
             </ul>
          </div>
          <!-- main scroll container  -->

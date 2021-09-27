@@ -9,6 +9,7 @@
    <!---------- navbar  ---------->
    <a href="index.php" class="btn border-bottom">Home</a>
 
+
    <section class="signup-login d-flex justify-content-center align-items-center mx-auto " style="height: 100vh;">
       <div class="main-div container row mx-auto ">
          <div class="col-md-6 lt">
