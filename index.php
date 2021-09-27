@@ -682,9 +682,9 @@
 
    <!---------- USP section ------------>
    <section class="my-5" id="USP">
-      <h2 class="text-center mb-3">USP</h2>
+      <h2 class="text-center main-title mb-3">USP</h2>
 
-      <div class="row main-row mx-auto g-3 container-md py-4">
+      <!-- <div class="row main-row mx-auto g-3 container-md py-4">
          <div class="col-md-4 col-12 hover-cards-container">
             <div class="hover-card">
                <div class="bg-img-hover">
@@ -733,8 +733,73 @@
                </p>
             </div>
          </div>
+      </div> -->
+      <div class="usp-row row container-md mx-auto py-5">
+         <div class="col-md-4 col-12">
+            <div class="usp-card">
+               <div class="img-container">
+                  <img src="https://images.unsplash.com/photo-1629377856766-72c3bb4c86c6?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" class="img-fluid">
+               </div>
+               <div class="content-box">
+                  <h3 class="title">Card Title Bold</h3>
+                  <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos, accusamus itaque nihil non laudantium? Quo atque enim magnam eveniet.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-12">
+            <div class="usp-card">
+               <div class="img-container">
+                  <img src="https://images.unsplash.com/photo-1629666448297-56b25188f330?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" class="img-fluid">
+               </div>
+               <div class="content-box">
+                  <h3 class="title">Card Title Bold</h3>
+                  <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos, accusamus itaque nihil non laudantium? Quo atque enim magnam eveniet.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-12">
+            <div class="usp-card">
+               <div class="img-container">
+                  <img src="https://images.unsplash.com/photo-1629377856766-72c3bb4c86c6?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" class="img-fluid">
+               </div>
+               <div class="content-box">
+                  <h3 class="title">Card Title Bold</h3>
+                  <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos, accusamus itaque nihil non laudantium? Quo atque enim magnam eveniet.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-12">
+            <div class="usp-card">
+               <div class="img-container">
+                  <img src="https://images.unsplash.com/photo-1629666448297-56b25188f330?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" class="img-fluid">
+               </div>
+               <div class="content-box">
+                  <h3 class="title">Card Title Bold</h3>
+                  <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos, accusamus itaque nihil non laudantium? Quo atque enim magnam eveniet.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4 col-12">
+            <div class="usp-card">
+               <div class="img-container">
+                  <img src="https://images.unsplash.com/photo-1629377856766-72c3bb4c86c6?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="" class="img-fluid">
+               </div>
+               <div class="content-box">
+                  <h3 class="title">Card Title Bold</h3>
+                  <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos, accusamus itaque nihil non laudantium? Quo atque enim magnam eveniet.</p>
+               </div>
+            </div>
+         </div>
       </div>
+
    </section>
+
+   <!-- Usp card hover  -->
+
+
+
+
+
 
 
    <!-- our process  -->
