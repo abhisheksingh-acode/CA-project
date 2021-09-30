@@ -14,7 +14,7 @@
       <div class="row container-md mx-auto ">
          <div class="col-md-6 lt order-2 order-md-1">
             <div class="content">
-               <h2 class="heading">We're A Team Of Creators and Innovators</h2>
+               <h2 class="heading">How We Started <span class="brandFont">ConsoLegal</span></h2>
                <p class="sub-para">We Started in 2013 as a one man show in the profession gradually scaled up with the joining of passionate and experienced professionals from diverse backgrounds now launching our online platform ConsoLegal- Keep it Simple. We value accountability, transparency and simplicity.</p>
                <a class="btn an-btn">Get Started</a>
             </div>
