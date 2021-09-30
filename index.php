@@ -103,7 +103,7 @@
                <h1 class="title fw-bold d-none d-md-block" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true"> About <span class="brandFont">ConsoLegal</span></h1>
 
                <p class="para my-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eius perferendis veniam, quia velit neque expedita esse commodi eum voluptatum dolorum! Accusantium, consequatur et. Accusantium, consequatur et.</p>
+                  We Started in 2013 as a one man show in the profession gradually scaled up with the joining of passionate and experienced professionals from diverse backgrounds now launching our online platform ConsoLegal- Keep it Simple. We value accountability, transparency and simplicity.</p>
                <div class="button" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-once="true">
                   <a href="" class="btn an-btn">Read More</a>
                </div>
@@ -288,25 +288,25 @@
                   <li class="tabs tab3">
                      <input type="radio" name="tabs">
                      <label>
-                        Fassai License
+                        Business Licenses
                      </label>
                   </li>
                   <li class="tabs tab4">
                      <input type="radio" name="tabs">
                      <label>
-                        RBI Regulatory
+                        Taxation
                      </label>
                   </li>
                   <li class="tabs tab5">
                      <input type="radio" name="tabs">
                      <label>
-                        Tax Filing
+                        IPR & Other
                      </label>
                   </li>
                   <li class="tabs tab6">
                      <input type="radio" name="tabs">
                      <label>
-                        IPR & NGO
+                        Compliances
                      </label>
                   </li>
                </ul>
@@ -322,7 +322,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration2</h6>
+                  <h6 class="title">Private Limited Company Incorporation</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -334,7 +334,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">LLP/Partnership Firm Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -346,7 +346,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 1</h6>
+                  <h6 class="title">Proprietorship Firm Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -358,7 +358,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 2</h6>
+                  <h6 class="title">Nidhi Company Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -373,7 +373,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration6</h6>
+                  <h6 class="title">MSME/Udyam Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -385,7 +385,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 6</h6>
+                  <h6 class="title">Import Export Code Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -397,7 +397,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 6</h6>
+                  <h6 class="title">EPF & ESI Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -409,7 +409,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 6</h6>
+                  <h6 class="title">Shop & Establishment Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -424,7 +424,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 8</h6>
+                  <h6 class="title">FSSAI License</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -436,7 +436,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 8</h6>
+                  <h6 class="title">Drug License</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -448,7 +448,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">Trade License</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -460,14 +460,14 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">PSARA License</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
                </div>
             </div>
          </div>
-         <!-- container for tab1 -->
+         <!-- container for tab4 -->
          <div class="col-12 col-md-9 rt tab-container d-none row mx-0">
             <!-- cards container  -->
             <div class="col-12 col-md-6">
@@ -475,7 +475,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 11</h6>
+                  <h6 class="title">Income Tax Return</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -487,7 +487,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration 11</h6>
+                  <h6 class="title">GST Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -499,7 +499,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">GST Return</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -511,14 +511,14 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">TDS Return</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
                </div>
             </div>
          </div>
-         <!-- container for tab1 -->
+         <!-- container for tab5 -->
          <div class="col-12 col-md-9 rt tab-container d-none row mx-0">
             <!-- cards container  -->
             <div class="col-12 col-md-6">
@@ -526,7 +526,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration2</h6>
+                  <h6 class="title">Trademark Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -538,7 +538,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">ISO Registration</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -550,7 +550,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">Payroll Management</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -562,14 +562,14 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">Accounting/ Bookeeping</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
                </div>
             </div>
          </div>
-         <!-- container for tab1 -->
+         <!-- container for tab6 -->
          <div class="col-12 col-md-9 rt tab-container d-none row mx-0">
             <!-- cards container  -->
             <div class="col-12 col-md-6">
@@ -577,7 +577,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration2</h6>
+                  <h6 class="title">Company Annual Filling</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -589,7 +589,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">LLP Annual Filling</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -601,7 +601,7 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">Nidhi Company Compliances </h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
@@ -613,64 +613,14 @@
                   <div class="img-container">
                      <img src="image/order.png" alt="">
                   </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
+                  <h6 class="title">Event Based Compliances</h6>
                   <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
                   <a href="" class="btn">Get Started</a>
                </div>
             </div>
          </div>
-         <!-- container for tab1 -->
-         <div class="col-12 col-md-9 rt tab-container d-none row mx-0">
-            <!-- cards container  -->
-            <div class="col-12 col-md-6">
-               <div class="cards">
-                  <div class="img-container">
-                     <img src="image/order.png" alt="">
-                  </div>
-                  <h6 class="title">Public Limited Company Registration2</h6>
-                  <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
 
-                  <a href="" class="btn">Get Started</a>
-               </div>
-            </div>
-            <!-- cards container  -->
-            <div class="col-12 col-md-6">
-               <div class="cards">
-                  <div class="img-container">
-                     <img src="image/order.png" alt="">
-                  </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
-                  <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
-
-                  <a href="" class="btn">Get Started</a>
-               </div>
-            </div>
-            <!-- cards container  -->
-            <div class="col-12 col-md-6">
-               <div class="cards">
-                  <div class="img-container">
-                     <img src="image/order.png" alt="">
-                  </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
-                  <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
-
-                  <a href="" class="btn">Get Started</a>
-               </div>
-            </div>
-            <!-- cards container  -->
-            <div class="col-12 col-md-6">
-               <div class="cards">
-                  <div class="img-container">
-                     <img src="image/order.png" alt="">
-                  </div>
-                  <h6 class="title">Public Limited Company Registration</h6>
-                  <p class="para">Incorporating a Public Company will provide you security & enjoys far more credibility than ot..</p>
-
-                  <a href="" class="btn">Get Started</a>
-               </div>
-            </div>
-         </div>
 
 
 

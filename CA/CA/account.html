@@ -1,0 +1,294 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>CA</title>
+
+
+
+<!-- CSS FILES -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+
+</head>
+<body>
+
+
+<section class="myccount">
+
+<div class="container">
+<h1 class="actitle">My Account</h1>
+
+<div class="row">
+
+<div class="col-md-2 p-0">
+<div class="rightside">
+  <nav class="nav-sidebar">
+		<ul class="nav tabs">
+          <li class="active"><i class="fa fa-shopping-basket" aria-hidden="true"></i><a href="#tab1" data-toggle="tab">Account Details</a></li>
+          <li class=""><i class="fa fa-user" aria-hidden="true"></i><a href="#tab2" data-toggle="tab">Order</a></li>                               
+		</ul>
+	</nav>
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-md-10">
+ <div class="tab-content box-shd">
+ <!-- ACCOUNT DETAILS START -->
+<div class="tab-pane active text-style" id="tab1">
+  <form class="login-form">
+		<div class="row rightcol">
+		<!-- name -->
+		 <div class="col-md-12"><h3 class="rtext">Personal Information</h3></div>
+		  <div class="col-md-12">
+		  <div class="form-group position-relative">
+                    <label>Name<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" placeholder="FullName" name="name" required="">
+               </div>
+			</div>	
+	<!-- email -->			
+		 <div class="col-md-12">
+		  <div class="form-group position-relative">
+		  <label>Email Address<span class="text-danger">*</span></label> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Forgot Password</button>
+		  <input type="email" class="form-control" placeholder="EmailAddress" name="email" required="">
+                </div>
+			</div>
+		  	  
+		  
+<div id="id01" class="modal" style="display: none;">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+    <div class="container">
+	<div class="row">
+	<div class="col-lg-8 col-md-8 col-8"><p>Change Password</p></div>
+	
+	<div class="col-lg-4 col-md-4 col-4"><a href="#">Resend OTP</a></div>
+	
+	<div class="col-lg-12">
+		<div class="form-group">
+             <input type="text" placeholder="Type New Password" name="ph" required="">
+            </div>
+		</div>
+		
+		<div class="col-lg-12">
+		<div class="form-group">
+             <input type="text" placeholder="Retype New Password" name="ph" required="">
+            </div>
+		</div>
+     
+
+    <div class="col-lg-12">
+      <button type="submit">Retrieve Password</button>
+      </div>
+	  </div>
+    </div>
+</div>	 
+		
+	<!-- mobile -->	
+		  <div class="col-md-12">
+		  <div class="form-group">
+		  <label>Mobile Number<span class="text-danger">*</span></label>
+<input type="text" class="form-control" placeholder="Phone" name="Phone" required="">
+                </div>
+			</div>				
+				<!-- company -->
+		<div class="col-md-12">
+		  <div class="form-group">
+		  <label>Company Name<span class="text-danger">*</span></label>
+		  <input type="text" class="form-control" placeholder="Company Name" name="company" required="">
+            </div>
+		</div>
+		
+		<div class="col-lg-12">
+		<div class="form-group">
+             <label>Change Password <span class="text-danger">*</span></label>
+                 <input type="password" class="form-control" placeholder="Change Password" required="">
+              </div>
+		</div>
+		
+			  <div class="col-lg-12">
+		<div class="form-group">
+              <a class="btn btn-info btn-xs" href="#">
+				<span class="glyphicon glyphicon-edit"></span> Update</a>
+              </div>
+		</div>
+		
+		
+		
+		</div>
+		</form>
+</div>
+
+<!-- ACCOUNT DETAILS END -->
+
+
+<!-- ORDERS DETAILS START -->
+<div class="tab-pane text-style" id="tab2">
+ <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Pending Order</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Complete Order</a>
+    </li>
+  </ul>
+  
+   <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+       <table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Date & Time</th>
+			<th>Payment</th>
+			<th>Status</th>
+            <th class="text-center">Action</th>
+        </tr>
+    </thead>
+            <tr>
+                <td>1</td>
+                <td>Product1</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount1</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="#">
+				<span class="glyphicon glyphicon-edit"></span> Submit Your Form</a> 
+				</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Product2</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount2</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="#">
+				<span class="glyphicon glyphicon-edit"></span> Submit Your Form</a> 
+				</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Product3</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount3</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="#">
+				<span class="glyphicon glyphicon-edit"></span> Submit Your Form</a> 
+				</td>
+            </tr>
+    </table>
+	  
+    </div>
+	
+	
+    <div id="menu1" class="container tab-pane fade">
+	
+	<table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Date & Time</th>
+			<th>Payment</th>
+			<th>Amount</th>
+            <th class="text-center">Status</th>
+        </tr>
+    </thead>
+            <tr>
+                <td>1</td>
+                <td>Product1</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount1</td>
+                <td class="text-center"><a class='Comp' href="#">Completed</a><br>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Product2</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount2</td>
+               <td class="text-center"><a class='Comp' href="#">Completed</a><br>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Product3</td>
+                <td>Date & Time</td>
+				<td>Paid</td>
+				<td>Amount3</td>
+                <td class="text-center"><a class='Comp' href="#">Completed</a><br>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="" download="logo"><i class="fa fa-download" aria-hidden="true"></i></a>
+				</td>
+            </tr>
+    </table>
+	
+     
+	  </div>
+   
+  </div>
+</div>
+<!-- ORDERS DETAILS END -->
+
+</div>
+   </div> 
+
+  
+  </div>
+  
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- JS FILES -->
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js"></script>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
