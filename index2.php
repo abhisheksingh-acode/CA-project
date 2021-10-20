@@ -79,7 +79,7 @@
    <section class="mt-5">
       <h2 class="text-center main-title">How to Start a Private Limited Company Registration</h2>
       <div class="main-img-container w-75 mx-auto p-3">
-         <img src="image/process.png" alt="" class="img-fluid">
+         <img src="image/processindex2.png" alt="" class="img-fluid">
       </div>
    </section>
 

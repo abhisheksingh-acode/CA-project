@@ -956,7 +956,7 @@ header::after {
       align-self: flex-start;
     }
     .img-container {
-      max-width: 60%;
+      max-width: 80%;
     }
   }
   .rt {
@@ -2271,6 +2271,11 @@ header::after {
         color: $theme-white;
         font-weight: bold;
         border-bottom: 3px solid $theme-orange;
+        a {
+          text-decoration: none;
+          color: $theme-white;
+          font-weight: bold;
+        }
       }
       li.active {
         border-bottom: 3px solid $theme-blue;

@@ -16,16 +16,15 @@
    <section class="tabs-page-scroll ">
       <div class="tabs-container">
          <ul class="list-unstyled">
-            <li class="active">Motor Insurance</li>
-            <li>EMI Calculator</li>
-            <li>Eligibilty</li>
-            <li>Insurance Plan</li>
-            <li>Types Of Insurance</li>
+            <li class="active"><a href="#tab1">Tab 1</a></li>
+            <li class=""><a href="#tab2">Tab 2</a></li>
+            <li class=""><a href="#tab3">Tab 3</a></li>
+            <li class=""><a href="#tab4">Tab 4</a></li>
          </ul>
       </div>
    </section>
 
-   <section class="personal-loan-about ">
+   <section class="personal-loan-about " id="tab1">
       <h3 class="title text-center mb-5">Motor Insurance</h3>
 
       <p class="para">
@@ -37,7 +36,7 @@
 
    </section>
 
-   <section class="benefits-loan ">
+   <section class="benefits-loan " id="tab2">
       <div class="row mx-auto container-fluid container-md">
          <div class="col-md-8">
             <h3 class="title theme-orange">Benefits Of Motor Insurance</h3>

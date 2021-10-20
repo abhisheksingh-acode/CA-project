@@ -1176,7 +1176,7 @@ header::after {
 }
 
 #our-process .lt .img-container {
-  max-width: 60%;
+  max-width: 80%;
 }
 
 #our-process .rt {
@@ -2960,6 +2960,12 @@ header::after {
   color: #fff;
   font-weight: bold;
   border-bottom: 3px solid #efa434;
+}
+
+.tabs-page-scroll .tabs-container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 .tabs-page-scroll .tabs-container ul li.active {

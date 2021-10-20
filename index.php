@@ -756,14 +756,14 @@
    <section class="mb-0 my-md-5" id="our-process">
       <div class="row container-md mx-auto main-row">
          <div class="col-md-6 lt">
-            <div class="head" style="width: 60%;">
+            <div class="head" style="width: 70%;">
                <h3 class="title">Working Process at ConsoLegal</h3>
                <p class="sub-title">Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Facere, fuga.</p>
             </div>
 
             <div class="img-container">
-               <img src="image/about-us.svg" alt="" class="img-fluid">
+               <img src="image/processhome.png" alt="" class="img-fluid">
             </div>
          </div>
          <div class="col-md-6 rt">
